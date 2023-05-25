@@ -1,0 +1,40 @@
+{
+  "resourceType": "ConceptMap",
+  "status": "draft",
+  "id": "canshare-cm-26",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-26",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "-",
+          "display": "Histologic grading system of primary malignant neoplasm",
+          "target": [
+            {
+              "code": "449205006",
+              "display": "Nottingham histologic grading system",
+              "comment": "Value",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "primary-cancer",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                },
+                {
+                  "property": "histology",
+                  "system": "http://snomed.info/sct",
+                  "value": "-",
+                  "display": "NZ cancer in situ breast tumour morphology reference set"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

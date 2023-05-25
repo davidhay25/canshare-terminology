@@ -1,0 +1,36 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [
+    {
+      "name": "url",
+      "valueUri": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-22"
+    },
+    {
+      "name": "coding",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "512001000004108"
+      }
+    },
+    {
+      "name": "dependency",
+      "part": [
+        {
+          "name": "element",
+          "valueUri": "cancer-service"
+        },
+        {
+          "name": "concept",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "394803006"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

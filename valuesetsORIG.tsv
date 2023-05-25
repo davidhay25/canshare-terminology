@@ -1,0 +1,73 @@
+Value Set ID	Refset ID	Title	Description
+canshare-data-absent-reason	253111000210109	NZ CanShare data absent reason	Reasons that no specific value is available.
+canshare-sact-observation-codes	253121000210104	NZ CanShare SACT observation code	Observable entities used to represent the meaning of CanShare data elements.
+canshare-sact-basis-of-cancer-diagnosis	253131000210102	NZ CanShare SACT basis of diagnosis	The types of evidence used to reach a cancer diagnosis.
+canshare-haematolymphoid-histology	253231000210109	NZ CanShare hematolymphoid histology	Histologies used for haematolymphoid cancer types (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition) 
+canshare-haematolymphoid-myeloid-histology	263321000210108	NZ CanShare hematolymphoid myeloid histology	Histologies used for myeloid proliferations and neoplasms (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 2. Myeloid proliferations and neoplasms) 
+canshare-haematolymphoid-histiocytic-histology	263331000210105	NZ CanShare hematolymphoid histiocytic histology	Histologies used for histiocytic and dentritic cell neoplasms (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 3. Histiocytic/Dendritic cell neoplasms) 
+canshare-haematolymphoid-Bcell-histology	263341000210102	NZ CanShare hematolymphoid B-cell histology	Histologies used for B-cell lymphoid proliferations and lymphomas (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 4. B-cell lymphoid proliferations and lymphomas) 
+canshare-haematolymphoid-TNKcell-histology	263351000210104	NZ CanShare hematolymphoid T/NK-cell histology	Histologies used for T-cell and NK-cell lymphoid proliferations and lymphomas (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 5. T-cell and NK-cell lymphoid proliferations and lymphomas) 
+canshare-haematolymphoid-stroma-histology	263361000210101	NZ CanShare hematolymphoid stroma-derived histology	Histologies used for stroma-derived neoplasms of lymphoid tissues (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 6. Stroma-derived neoplasms of lymphoid tissues) 
+canshare-laterality	253241000210101	NZ CanShare laterality	The side of a paired organ, e.g. left or right.
+canshare-AJCC-grade	253251000210103	NZ CanShare AJCC grade	The grade of a cancer, assessed using the AJCC cancer staging manual (8th edition)
+canshare-gradingSystem	253281000210108	NZ CanShare cancer grading system	Grading systems used to assess the grade of one or more cancer types.
+canshare-recurrenceType	253291000210105	NZ CanShare cancer recurrence type	The type of cancer recurrence, e.g. local, regional.
+canshare-ecogStatus	253301000210109	NZ CanShare ECOG status	The performance status of a patient as defined by the Eastern Cooperative Oncology Group (ECOG).
+canshare-TNM-cT	253451000210104	NZ CanShare TNM clinical T category	The clinical stage of a primary tumour before initiation of treatment, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-breast-cT	253491000210106	NZ CanShare TNM breast clinical T category	The clinical stage of a primary breast tumour before initiation of treatment, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-haematology-cT	253501000210101	NZ CanShare TNM haematology clinical T category	The clinical stage of a primary haematologic cancer before initiation of treatment, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-haematology-MFSScutaneousLymphoma-cT	253571000210108	NZ CanShare TNM haematology mycosis fungoides or sezary syndrome clinical T category	The clinical stage of a mycosis fungoides or sezary syndrome primary cutaneous lymphoma before initiation of treatment, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-haematology-nonMfssCutaneousLymphoma-cT	253581000210105	NZ CanShare TNM haematology primary cutaneous  B-cell or T-cell lymphoma (non-MF/SS) clinical T category	The clinical stage of a primary cutaneous B-cell or T-cell lymphoma (non-mycosis fungoides and non-sezary syndrome) before initiation of treatment, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-pT	253461000210101	NZ CanShare TNM pathological T category	The pathological stage of a primary tumour, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-breast-pT	253511000210104	NZ CanShare TNM carcinoma of breast pathological T category	The pathological stage of a primary breast tumour, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-haematology-pT	253521000210109	NZ CanShare TNM haematology pathological T category	The pathological stage of a primary haematologic cancer, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-haematology-MFSScutaneousLymphoma-pT	253591000210107	NZ CanShare TNM haematology mycosis fungoides or sezary syndrome pathological T category	The pathological stage of a mycosis fungoides or sezary syndrome primary cutaneous lymphoma, using the AJCC cancer staging manual (8th edition).
+canshare-TNM-haematology-nonMfssCutaneousLymphoma-pT	253601000210102	NZ CanShare TNM primary cutaneous B-cell or T-cell lymphoma (non-MF/SS) pathological T category	The pathological stage of a primary cutaneous B-cell or T-cell lymphoma (non-mycosis fungoides and non-sezary syndrome), using the AJCC cancer staging manual (8th edition).
+canshare-TNM-cN	253471000210107	NZ CanShare AJCC clinical N category	
+canshare-TNM-breast-cN	253531000210106	NZ CanShare AJCC carcinoma of breast clinical N category	
+canshare-TNM-haematology-cN	253541000210103	NZ CanShare AJCC hematologic malignancy clinical N category	
+canshare-TNM-haematology-MFSScutaneousLymphoma-cN	253611000210100	NZ CanShare AJCC mycosis fungoides or sezary syndrome clinical N category	
+canshare-TNM-haematology-nonMfssCutaneousLymphoma-cN	253621000210105	NZ CanShare AJCC primary cutaneous B-cell or T-cell lymphoma clinical N category	
+canshare-TNM-pN	253481000210109	NZ CanShare AJCC pathological N category	
+canshare-TNM-breast-pN	253551000210100	NZ CanShare AJCC carcinoma of breast pathological N category	
+canshare-TNM-haematology-pN	253561000210102	NZ CanShare AJCC hematologic malignancy pathological N category	
+canshare-TNM-haematology-MFSScutaneousLymphoma-pN	253631000210107	NZ CanShare AJCC mycosis fungoides or sezary syndrome pathological N category	
+canshare-TNM-haematology-nonMfssCutaneousLymphoma-pN	253641000210104	NZ CanShare AJCC primary cutaneous B-cell or T-cell lymphoma pathological N category	
+canshare-TNM-cM	253651000210101	NZ CanShare AJCC clinical M category	
+canshare-TNM-breast-cM	253701000210108	NZ CanShare AJCC carcinoma of breast clinical M category	
+canshare-TNM-haematology-cM	253711000210105	NZ CanShare AJCC hematologic malignancy clinical M category	
+canshare-TNM-haematology-mycosis-fungoides-or-sezary-syndrome-cM	253821000210106	NZ CanShare AJCC mycosis fungoides or sezary syndrome clinical M category	
+canshare-TNM-haematology-B-T-cell-lymphoma-cM	253831000210108	NZ CanShare AJCC primary cutaneous B-cell or T-cell lymphoma clinical M category	
+canshare-TNM-pM	253661000210103	NZ CanShare AJCC pathological M category	
+canshare-TNM-breast-pM	253721000210100	NZ CanShare AJCC carcinoma of breast pathological M category	
+canshare-TNM-haematology-pM	253731000210103	NZ CanShare AJCC hematologic malignancy pathological M category	
+canshare-TNM-haematology-mycosis-fungoides-or-sezary-syndrome-pM	253841000210100	NZ CanShare AJCC mycosis fungoides or sezary syndrome pathological M category	
+canshare-TNM-haematology-cutaneous-B-T-cell-lymphoma-pM	253851000210102	NZ CanShare AJCC primary cutaneous B-cell or T-cell lymphoma pathological M category	
+canshare-AJCC-staging-manual-edition	253671000210109	NZ CanShare AJCC cancer staging manual edition	
+canshare-TNM-clinical-stage-group	253681000210106	NZ CanShare AJCC clinical stage group	
+canshare-TNM-pathological-stage-group	253691000210108	NZ CanShare AJCC pathological stage group	
+canshare-TNM-breast-clinical-stage-group	253741000210106	NZ CanShare AJCC carcinoma of breast clinical stage group	
+canshare-TNM-breast-pathological-stage-group	253751000210109	NZ CanShare AJCC carcinoma of breast pathological stage group	
+canshare-TNM-haematology-stage-group	263581000210104	NZ CanShare AJCC haematology stage group	
+canshare-TNM-haematology-Hodgkin-or-non-Hodgkin-lymphoma-stage-group	253761000210107	NZ CanShare AJCC Hodgkin or non-Hodgkin lymphoma stage group	
+canshare-TNM-haematology-chronic-lymphocytic-leukemia-or-small-lymphocytic-lymphoma-stage-group	253771000210101	NZ CanShare AJCC chronic lymphocytic leukemia or small lymphocytic lymphoma stage group	
+canshare-TNM-haematology-paediatric-Hodgkin-lymphoma-stage-group	253781000210104	NZ CanShare AJCC pediatric Hodgkin lymphoma stage group	
+canshare-TNM-haematology-paediatric-non-Hodgkin-lymphoma-stage-group	253791000210102	NZ CanShare AJCC pediatric non-Hodgkin lymphoma stage group	
+canshare-TNM-haematology-mycosis-fungoides-or-sezary-syndrome-stage-group	253801000210103	NZ CanShare AJCC mycosis fungoides or sezary syndrome stage group	
+canshare-plasma-cell-myeloma-stage-group	253811000210101	NZ CanShare AJCC plasma cell myeloma stage group	
+canshare-staging-system	253311000210106	NZ CanShare cancer staging system	
+canshare-prognostic-scoring-system	253321000210101	NZ CanShare cancer prognostic scoring system	
+canshare-treatment-intent	253361000210108	NZ CanShare cancer treatment intent	
+canshare-solid-tumour-treatment-intent	253861000210104	NZ CanShare cancer solid tumour treatment intent	
+canshare-haematology-treatment-intent	253871000210105	NZ CanShare cancer haematology treatment intent	
+sact-overall-discontinue-reason	253371000210102	NZ CanShare SACT overall discontinue reason	
+sact-patient-factor-discontinue-reason	253381000210100	NZ CanShare SACT patient factor discontinue reason	
+sact-toxicity-discontinue-reason	253391000210103	NZ CanShare SACT toxicity discontinue reason	
+sact-disease-response	253401000210100	NZ CanShare SACT disease response	
+sact-dose-adjustment-reason	253411000210103	NZ CanShare SACT dose adjustment reason	
+sact-dose-unit	253421000210108	NZ CanShare SACT dose unit	
+sact-route-of-administration	253441000210102	NZ CanShare SACT route of administration	
+canshare-sact-dose-form	263511000210105	NZ CanShare SACT dose form 	
+canshare-ER-expression	253331000210104	NZ CanShare cancer ER expression	
+canshare-PR-expression	253341000210107	NZ CanShare cancer PR expression	
+canshare-HER2-expression	253351000210105	NZ CanShare cancer HER2 expression	

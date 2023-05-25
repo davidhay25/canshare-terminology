@@ -1,0 +1,40 @@
+{
+  "resourceType": "ConceptMap",
+  "status": "draft",
+  "id": "canshare-cm-18",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-18",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "399687005",
+          "display": "Anatomic location of primary malignant neoplasm",
+          "target": [
+            {
+              "code": "253151000210108",
+              "display": "NZ cancer breast topography",
+              "comment": "Value set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                },
+                {
+                  "property": "primary-cancer",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

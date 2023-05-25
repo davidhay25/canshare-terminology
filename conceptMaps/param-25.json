@@ -1,0 +1,16 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [
+    {
+      "name": "url",
+      "valueUri": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-25"
+    },
+    {
+      "name": "coding",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3606 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-data-absent-reason",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-data-absent-reason",
+        "status": "active",
+        "name": "canshare-data-absent-reason",
+        "title": "NZ CanShare data absent reason",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-data-absent-reason"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Reasons that no specific value is available.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253111000210109"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-data-absent-reason"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-observation",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-observation",
+        "status": "active",
+        "name": "canshare-observation",
+        "title": "NZ CanShare observation",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-observation"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Observable entities used to represent the meaning of CanShare data elements.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253121000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-observation"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-basis-of-cancer-diagnosis",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-basis-of-cancer-diagnosis",
+        "status": "active",
+        "name": "canshare-sact-basis-of-cancer-diagnosis",
+        "title": "NZ CanShare SACT basis of diagnosis",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-basis-of-cancer-diagnosis"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Types of evidence that may be used to reach a cancer diagnosis, which is treated with systemic anti cancer therapy (SACT).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253131000210102"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-basis-of-cancer-diagnosis"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-haematology-histology",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-histology",
+        "status": "active",
+        "name": "canshare-haematology-histology",
+        "title": "NZ CanShare haematology histology",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-haematology-histology"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Histologies used for haematolymphoid cancer types (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition) ",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253231000210109"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-haematology-histology"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-haematology-myeloid-histology",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-myeloid-histology",
+        "status": "active",
+        "name": "canshare-haematology-myeloid-histology",
+        "title": "NZ CanShare haematology myeloid histology",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-haematology-myeloid-histology"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Histologies used for myeloid proliferations and neoplasms (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 2. Myeloid proliferations and neoplasms) ",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "263321000210108"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-haematology-myeloid-histology"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-haematology-histiocytic-histology",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-histiocytic-histology",
+        "status": "active",
+        "name": "canshare-haematology-histiocytic-histology",
+        "title": "NZ CanShare haematology histiocytic histology",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-haematology-histiocytic-histology"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Histologies used for histiocytic and dendritic cell neoplasms (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 3. Histiocytic/Dendritic cell neoplasms) ",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "263331000210105"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-haematology-histiocytic-histology"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-haematology-b-cell-histology",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-b-cell-histology",
+        "status": "active",
+        "name": "canshare-haematology-b-cell-histology",
+        "title": "NZ CanShare haematology B-cell histology",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-haematology-b-cell-histology"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Histologies used for B-cell lymphoid proliferations and lymphomas (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 4. B-cell lymphoid proliferations and lymphomas) ",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "263341000210102"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-haematology-b-cell-histology"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-haematology-t-nk-cell-histology",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-t-nk-cell-histology",
+        "status": "active",
+        "name": "canshare-haematology-t-nk-cell-histology",
+        "title": "NZ CanShare haematology T/NK-cell histology",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-haematology-t-nk-cell-histology"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Histologies used for T-cell and NK-cell lymphoid proliferations and lymphomas (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 5. T-cell and NK-cell lymphoid proliferations and lymphomas) ",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "263351000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-haematology-t-nk-cell-histology"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-haematology-stroma-histology",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-stroma-histology",
+        "status": "active",
+        "name": "canshare-haematology-stroma-histology",
+        "title": "NZ CanShare haematology stroma-derived histology",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-haematology-stroma-histology"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Histologies used for stroma-derived neoplasms of lymphoid tissues (WHO Classification of Tumours, Haematolymphoid Tumours, 5th edition - 6. Stroma-derived neoplasms of lymphoid tissues) ",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "263361000210101"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-haematology-stroma-histology"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-laterality",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-laterality",
+        "status": "active",
+        "name": "canshare-laterality",
+        "title": "NZ CanShare laterality",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-laterality"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "The side of a paired organ, e.g. left or right.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253241000210101"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-laterality"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-ajcc-grade",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ajcc-grade",
+        "status": "active",
+        "name": "canshare-ajcc-grade",
+        "title": "NZ CanShare AJCC grade",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-ajcc-grade"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "The grade of a cancer, assessed using the AJCC cancer staging manual (8th edition)",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253251000210103"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-ajcc-grade"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-grading-system",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-grading-system",
+        "status": "active",
+        "name": "canshare-grading-system",
+        "title": "NZ CanShare cancer grading system",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-grading-system"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Grading systems used to assess the grade of one or more cancer types.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253281000210108"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-grading-system"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-recurrence-type",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-recurrence-type",
+        "status": "active",
+        "name": "canshare-recurrence-type",
+        "title": "NZ CanShare cancer recurrence type",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-recurrence-type"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "The type of cancer recurrence, e.g. local, regional.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253291000210105"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-recurrence-type"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-ecog-status",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ecog-status",
+        "status": "active",
+        "name": "canshare-ecog-status",
+        "title": "NZ CanShare ECOG status",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-ecog-status"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "The performance status of a patient as defined by the Eastern Cooperative Oncology Group (ECOG).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253301000210109"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-ecog-status"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-ct",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-ct",
+        "status": "active",
+        "name": "canshare-tnm-ct",
+        "title": "NZ CanShare TNM clinical T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-ct"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical primary tumour stage (cT) of a tumour before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253451000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-ct"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-breast-ct",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-ct",
+        "status": "active",
+        "name": "canshare-tnm-breast-ct",
+        "title": "NZ CanShare TNM breast clinical T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-breast-ct"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical primary tumour stage (cT) of a primary breast tumour before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253491000210106"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-breast-ct"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-ct",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-ct",
+        "status": "active",
+        "name": "canshare-tnm-haematology-ct",
+        "title": "NZ CanShare TNM haematology clinical T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-ct"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical primary tumour stage (cT) of a primary haematologic cancer before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253501000210101"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-ct"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-mf-or-ss-ct",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-mf-or-ss-ct",
+        "status": "active",
+        "name": "canshare-tnm-haematology-mf-or-ss-ct",
+        "title": "NZ CanShare TNM haematology mycosis fungoides or sezary syndrome clinical T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-mf-or-ss-ct"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical primary tumour stage (cT) of a mycosis fungoides or sezary syndrome primary cutaneous lymphoma before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253571000210108"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-mf-or-ss-ct"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-non-mf-or-ss-ct",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-non-mf-or-ss-ct",
+        "status": "active",
+        "name": "canshare-tnm-haematology-non-mf-or-ss-ct",
+        "title": "NZ CanShare TNM haematology primary cutaneous B-cell or T-cell lymphoma (non-MF/SS) clinical T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-non-mf-or-ss-ct"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical primary tumour stage (cT) of a primary cutaneous B-cell or T-cell lymphoma (non-mycosis fungoides and non-sezary syndrome) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253581000210105"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-non-mf-or-ss-ct"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-pt",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-pt",
+        "status": "active",
+        "name": "canshare-tnm-pt",
+        "title": "NZ CanShare TNM pathological T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-pt"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological primary tumour stage (pT) of a tumour, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253461000210101"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-pt"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-breast-pt",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-pt",
+        "status": "active",
+        "name": "canshare-tnm-breast-pt",
+        "title": "NZ CanShare TNM breast pathological T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-breast-pt"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological primary tumour stage (pT) of a primary breast tumour, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253511000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-breast-pt"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-pt",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-pt",
+        "status": "active",
+        "name": "canshare-tnm-haematology-pt",
+        "title": "NZ CanShare TNM haematology pathological T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-pt"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological primary tumour stage (pT) of a primary haematologic cancer, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253521000210109"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-pt"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-mf-or-ss-pt",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-mf-or-ss-pt",
+        "status": "active",
+        "name": "canshare-tnm-haematology-mf-or-ss-pt",
+        "title": "NZ CanShare TNM haematology mycosis fungoides or sezary syndrome pathological T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-mf-or-ss-pt"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological primary tumour stage (pT) of a mycosis fungoides or sezary syndrome primary cutaneous lymphoma, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253591000210107"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-mf-or-ss-pt"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-non-mf-or-ss-pt",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-non-mf-or-ss-pt",
+        "status": "active",
+        "name": "canshare-tnm-haematology-non-mf-or-ss-pt",
+        "title": "NZ CanShare TNM primary cutaneous B-cell or T-cell lymphoma (non-MF/SS) pathological T category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-non-mf-or-ss-pt"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological primary tumour stage (pT) of a primary cutaneous B-cell or T-cell lymphoma (non-mycosis fungoides and non-sezary syndrome), using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253601000210102"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-non-mf-or-ss-pt"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-cn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-cn",
+        "status": "active",
+        "name": "canshare-tnm-cn",
+        "title": "NZ CanShare TNM clinical N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-cn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical regional lymph node stage (cN) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253471000210107"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-cn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-breast-cn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-cn",
+        "status": "active",
+        "name": "canshare-tnm-breast-cn",
+        "title": "NZ CanShare TNM breast clinical N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-breast-cn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical regional lymph node stage (cN) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253531000210106"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-breast-cn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-cn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-cn",
+        "status": "active",
+        "name": "canshare-tnm-haematology-cn",
+        "title": "NZ CanShare TNM haematology clinical N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-cn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical regional lymph node stage (cN) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253541000210103"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-cn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-mf-or-ss-cn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-mf-or-ss-cn",
+        "status": "active",
+        "name": "canshare-tnm-haematology-mf-or-ss-cn",
+        "title": "NZ CanShare TNM haematology mycosis fungoides or sezary syndrome clinical N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-mf-or-ss-cn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical regional lymph node stage (cN) of a mycosis fungoides or sezary syndrome primary cutaneous lymphoma before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253611000210100"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-mf-or-ss-cn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-non-mf-or-ss-cn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-non-mf-or-ss-cn",
+        "status": "active",
+        "name": "canshare-tnm-haematology-non-mf-or-ss-cn",
+        "title": "NZ CanShare TNM haematology primary cutaneous B-cell or T-cell lymphoma (non-MF/SS) clinical N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-non-mf-or-ss-cn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical regional lymph node stage (cN) of a primary cutaneous B-cell or T-cell lymphoma (non-mycosis fungoides and non-sezary syndrome) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253621000210105"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-non-mf-or-ss-cn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-pn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-pn",
+        "status": "active",
+        "name": "canshare-tnm-pn",
+        "title": "NZ CanShare TNM pathological N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-pn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological regional lymph node stage (pN), using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253481000210109"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-pn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-breast-pn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-pn",
+        "status": "active",
+        "name": "canshare-tnm-breast-pn",
+        "title": "NZ CanShare TNM breast pathological N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-breast-pn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological regional lymph node stage (pN) of a primary breast tumour, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253551000210100"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-breast-pn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-pn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-pn",
+        "status": "active",
+        "name": "canshare-tnm-haematology-pn",
+        "title": "NZ CanShare TNM haematology pathological N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-pn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological regional lymph node stage (pN) of a primary haematologic cancer, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253561000210102"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-pn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-mf-or-ss-pn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-mf-or-ss-pn",
+        "status": "active",
+        "name": "canshare-tnm-haematology-mf-or-ss-pn",
+        "title": "NZ CanShare TNM haematology mycosis fungoides or sezary syndrome pathological N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-mf-or-ss-pn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological regional lymph node stage (pN) of a mycosis fungoides or sezary syndrome primary cutaneous lymphoma, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253631000210107"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-mf-or-ss-pn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-non-mf-or-ss-pn",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-non-mf-or-ss-pn",
+        "status": "active",
+        "name": "canshare-tnm-haematology-non-mf-or-ss-pn",
+        "title": "NZ CanShare TNM haematology primary cutaneous B-cell or T-cell lymphoma (non-MF/SS) pathological N category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-non-mf-or-ss-pn"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological regional lymph node stage (pN) of a primary cutaneous B-cell or T-cell lymphoma (non-mycosis fungoides and non-sezary syndrome), using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253641000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-non-mf-or-ss-pn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-cm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-cm",
+        "status": "active",
+        "name": "canshare-tnm-cm",
+        "title": "NZ CanShare TNM clinical M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-cm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical distant metastasis stage (cM) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253651000210101"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-cm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-breast-cm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-cm",
+        "status": "active",
+        "name": "canshare-tnm-breast-cm",
+        "title": "NZ CanShare TNM breast clinical M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-breast-cm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical distant metastasis stage (cM) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253701000210108"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-breast-cm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-cm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-cm",
+        "status": "active",
+        "name": "canshare-tnm-haematology-cm",
+        "title": "NZ CanShare TNM haematology clinical M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-cm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical distant metastasis stage (cM) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253711000210105"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-cm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-mf-or-ss-cm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-mf-or-ss-cm",
+        "status": "active",
+        "name": "canshare-tnm-haematology-mf-or-ss-cm",
+        "title": "NZ CanShare TNM haematology mycosis fungoides or sezary syndrome clinical M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-mf-or-ss-cm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical distant metastasis stage (cM) of a mycosis fungoides or sezary syndrome primary cutaneous lymphoma before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253821000210106"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-mf-or-ss-cm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-non-mf-or-ss-cm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-non-mf-or-ss-cm",
+        "status": "active",
+        "name": "canshare-tnm-haematology-non-mf-or-ss-cm",
+        "title": "NZ CanShare TNM haematology primary cutaneous B-cell or T-cell lymphoma (non-MF/SS) clinical M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-non-mf-or-ss-cm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A clinical distant metastasis stage (cM) of a primary cutaneous B-cell or T-cell lymphoma (non-mycosis fungoides and non-sezary syndrome) before initiation of treatment, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253831000210108"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-non-mf-or-ss-cm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-pm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-pm",
+        "status": "active",
+        "name": "canshare-tnm-pm",
+        "title": "NZ CanShare TNM pathological M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-pm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological distant metastasis stage (pM), using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253661000210103"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-pm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-breast-pm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-pm",
+        "status": "active",
+        "name": "canshare-tnm-breast-pm",
+        "title": "NZ CanShare TNM breast pathological M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-breast-pm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological distant metastasis stage (pM) of a primary breast tumour, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253721000210100"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-breast-pm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-pm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-pm",
+        "status": "active",
+        "name": "canshare-tnm-haematology-pm",
+        "title": "NZ CanShare TNM haematology pathological M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-pm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological distant metastasis stage (pM) of a primary haematologic cancer, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253731000210103"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-pm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-mf-or-ss-pm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-mf-or-ss-pm",
+        "status": "active",
+        "name": "canshare-tnm-haematology-mf-or-ss-pm",
+        "title": "NZ CanShare TNM haematology mycosis fungoides or sezary syndrome pathological M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-mf-or-ss-pm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological distant metastasis stage (pM) of a mycosis fungoides or sezary syndrome primary cutaneous lymphoma, using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253841000210100"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-mf-or-ss-pm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-non-mf-or-ss-pm",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-non-mf-or-ss-pm",
+        "status": "active",
+        "name": "canshare-tnm-haematology-non-mf-or-ss-pm",
+        "title": "NZ CanShare TNM haematology primary cutaneous B-cell or T-cell lymphoma (non-MF/SS) pathological M category",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-non-mf-or-ss-pm"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A pathological distant metastasis stage (pM) of a primary cutaneous B-cell or T-cell lymphoma (non-mycosis fungoides and non-sezary syndrome), using the AJCC cancer staging manual (8th edition).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253851000210102"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-non-mf-or-ss-pm"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-ajcc-staging-manual-edition",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-ajcc-staging-manual-edition",
+        "status": "active",
+        "name": "canshare-ajcc-staging-manual-edition",
+        "title": "NZ CanShare AJCC cancer staging manual edition",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-ajcc-staging-manual-edition"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "A numbered edition of the American Joint Committee on Cancer (AJCC)'s cancer staging system.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253671000210109"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-ajcc-staging-manual-edition"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-clinical-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-clinical-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-clinical-stage-group",
+        "title": "NZ CanShare TNM clinical stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-clinical-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a cancer has grown and spread before initiation of treatment.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253681000210106"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-clinical-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-pathological-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-pathological-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-pathological-stage-group",
+        "title": "NZ CanShare TNM pathological stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-pathological-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a cancer has grown and spread using both clinical information and information obtained from pathological examination of tissue samples.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253691000210108"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-pathological-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-breast-clinical-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-clinical-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-breast-clinical-stage-group",
+        "title": "NZ CanShare TNM breast clinical stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-breast-clinical-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a breast cancer has grown and spread before initiation of treatment.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253741000210106"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-breast-clinical-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-breast-pathological-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-pathological-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-breast-pathological-stage-group",
+        "title": "NZ CanShare TNM breast pathological stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-breast-pathological-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a breast cancer has grown and spread using both clinicical information and information obtained from pathological examination of tissue samples.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253751000210109"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-breast-pathological-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-haematology-stage-group",
+        "title": "NZ CanShare TNM haematology stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a haematologic cancer has grown and spread.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "263581000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-hl-or-nhl-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-hl-or-nhl-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-haematology-hl-or-nhl-stage-group",
+        "title": "NZ CanShare TNM Hodgkin or non-Hodgkin lymphoma stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-hl-or-nhl-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a Hodgkin or non-Hodgkin lymphoma has grown and spread.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253761000210107"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-hl-or-nhl-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-cll-or-sll-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-cll-or-sll-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-haematology-cll-or-sll-stage-group",
+        "title": "NZ CanShare TNM chronic or small lymphocytic lymphoma stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-cll-or-sll-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a chronic lymphocytic lymphoma or a small lymphocytic lymphoma has grown and spread.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253771000210101"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-cll-or-sll-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-paed-hl-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-paed-hl-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-haematology-paed-hl-stage-group",
+        "title": "NZ CanShare TNM paediatric Hodgkin lymphoma stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-paed-hl-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a paediatric Hodgkin lymphoma has grown and spread.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253781000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-paed-hl-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-paed-nhl-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-paed-nhl-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-haematology-paed-nhl-stage-group",
+        "title": "NZ CanShare TNM paediatric non-Hodgkin lymphoma stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-paed-nhl-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a paediatric non-Hodgkin lymphoma has grown and spread.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253791000210102"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-paed-nhl-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-mf-or-ss-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-mf-or-ss-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-haematology-mf-or-ss-stage-group",
+        "title": "NZ CanShare TNM mycosis fungoides or sezary syndrome stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-mf-or-ss-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a mycosis fungoides or sezary syndrome has grown and spread.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253801000210103"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-mf-or-ss-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-tnm-haematology-pcm-stage-group",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-haematology-pcm-stage-group",
+        "status": "active",
+        "name": "canshare-tnm-haematology-pcm-stage-group",
+        "title": "NZ CanShare TNM plasma cell myeloma stage group",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-tnm-haematology-pcm-stage-group"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Stage groups that describe how far a plasma cell myeloma has grown and spread.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253811000210101"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-tnm-haematology-pcm-stage-group"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-staging-system",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-staging-system",
+        "status": "active",
+        "name": "canshare-staging-system",
+        "title": "NZ CanShare cancer staging system",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-staging-system"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Systems that may be used to classify the stage of a cancer diagnosis.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253311000210106"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-staging-system"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-prognostic-scoring-system",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-prognostic-scoring-system",
+        "status": "active",
+        "name": "canshare-prognostic-scoring-system",
+        "title": "NZ CanShare cancer prognostic scoring system",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-prognostic-scoring-system"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Systems that may be used to score the prognostic factors of a cancer diagnosis.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253321000210101"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-prognostic-scoring-system"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-treatment-intent",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-treatment-intent",
+        "status": "active",
+        "name": "canshare-treatment-intent",
+        "title": "NZ CanShare cancer treatment intent",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-treatment-intent"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Treatment intents or reasons for using a therapeutic procedure to treat cancer.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253361000210108"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-treatment-intent"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-mo-treatment-intent",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-mo-treatment-intent",
+        "status": "active",
+        "name": "canshare-mo-treatment-intent",
+        "title": "NZ CanShare medical oncology treatment intent",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-mo-treatment-intent"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Intents or reasons for using a therapeutic procedure to treat solid tumours.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253861000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-mo-treatment-intent"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-haematology-treatment-intent",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-treatment-intent",
+        "status": "active",
+        "name": "canshare-haematology-treatment-intent",
+        "title": "NZ CanShare haematology treatment intent",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-haematology-treatment-intent"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Intents or reasons for using a therapeutic procedure to treat haematological cancers.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253871000210105"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-haematology-treatment-intent"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-overall-discontinue-reason",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-overall-discontinue-reason",
+        "status": "active",
+        "name": "canshare-sact-overall-discontinue-reason",
+        "title": "NZ CanShare SACT overall discontinue reason",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-overall-discontinue-reason"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Overall reasons that a systemic anti-cancer therapy (SACT) regimen may be discontinued.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253371000210102"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-overall-discontinue-reason"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-patient-factor-discontinue-reason",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-patient-factor-discontinue-reason",
+        "status": "active",
+        "name": "canshare-sact-patient-factor-discontinue-reason",
+        "title": "NZ CanShare SACT patient factor discontinue reason",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-patient-factor-discontinue-reason"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Patient factors that may result in the discontinuation of a systemic anti-cancer therapy (SACT) treatment.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253381000210100"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-patient-factor-discontinue-reason"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-toxicity-discontinue-reason",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-toxicity-discontinue-reason",
+        "status": "active",
+        "name": "canshare-sact-toxicity-discontinue-reason",
+        "title": "NZ CanShare SACT toxicity discontinue reason",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-toxicity-discontinue-reason"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Toxicity factors that may result in the discontinuation of a systemic anti-cancer therapy (SACT) treatment.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253391000210103"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-toxicity-discontinue-reason"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-disease-response",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-disease-response",
+        "status": "active",
+        "name": "canshare-sact-disease-response",
+        "title": "NZ CanShare SACT disease response",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-disease-response"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Types of responses to a systemic anti-cancer therapy (SACT) treament",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253401000210100"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-disease-response"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-dose-adjustment-reason",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-dose-adjustment-reason",
+        "status": "active",
+        "name": "canshare-sact-dose-adjustment-reason",
+        "title": "NZ CanShare SACT dose adjustment reason",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-dose-adjustment-reason"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Reasons for adjusting the dose of a systemic anti-cancer therapy (SACT) treatment cycle.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253411000210103"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-dose-adjustment-reason"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-dose-unit",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-dose-unit",
+        "status": "active",
+        "name": "canshare-sact-dose-unit",
+        "title": "NZ CanShare SACT dose unit",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-dose-unit"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Units that may be used to describe the dose of a systemic anti-cancer therapy (SACT) medication.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253421000210108"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-dose-unit"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-route-of-administration",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-route-of-administration",
+        "status": "active",
+        "name": "canshare-sact-route-of-administration",
+        "title": "NZ CanShare SACT route of administration",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-route-of-administration"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Routes by which a systemic anti-cancer therapy (SACT) medication may be administered to a patient.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253441000210102"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-route-of-administration"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-sact-dose-form",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-sact-dose-form",
+        "status": "active",
+        "name": "canshare-sact-dose-form",
+        "title": "NZ CanShare SACT dose form ",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-sact-dose-form"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "Dose forms in which a systemic anti-cancer therapy (SACT) medication may be prescribed or administered.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "263511000210105"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-sact-dose-form"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-er-expression",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-er-expression",
+        "status": "active",
+        "name": "canshare-er-expression",
+        "title": "NZ CanShare cancer ER expression",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-er-expression"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "An assessment of whether or not a tumour is estrogen receptive (ER).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253331000210104"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-er-expression"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-pr-expression",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-pr-expression",
+        "status": "active",
+        "name": "canshare-pr-expression",
+        "title": "NZ CanShare cancer PR expression",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-pr-expression"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "An assessment of whether or not a tumour is progesterone receiptive (PR).",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253341000210107"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-pr-expression"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "canshare-her2-expression",
+        "language": "en-x-sctlang-23162100-0210105",
+        "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-her2-expression",
+        "status": "active",
+        "name": "canshare-her2-expression",
+        "title": "NZ CanShare cancer HER2 expression",
+        "experimental": false,
+        "version": "20230525",
+        "identifier": [
+          {
+            "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+            "value": "canshare-her2-expression"
+          }
+        ],
+        "publisher": "Te Aho o Te Kahu",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "info@teaho.govt.nz"
+              }
+            ]
+          }
+        ],
+        "description": "An assessment of the human epidermal growth factor receptor 2 (HER2) status of a tumour.",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/21000210109",
+              "filter": [
+                {
+                  "property": "concept",
+                  "op": "in",
+                  "value": "253351000210105"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ValueSet/canshare-her2-expression"
+      }
+    }
+  ]
+}

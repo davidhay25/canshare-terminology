@@ -1,0 +1,26 @@
+{
+  "resourceType": "ConceptMap",
+  "status": "draft",
+  "id": "canshare-cm-25",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-25",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "-",
+          "display": "Histologic grading system of primary malignant neoplasm",
+          "target": [
+            {
+              "code": "253281000210108",
+              "display": "NZ cancer grading system",
+              "comment": "Value set",
+              "equivalence": "relatedto"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

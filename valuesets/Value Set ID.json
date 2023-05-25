@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Value Set ID",
+  "language": "en-x-sctlang-23162100-0210105",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/Value Set ID",
+  "status": "active",
+  "experimental": false,
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "Value Set ID"
+    }
+  ],
+  "publisher": "Te Aho o Te Kahu",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@teaho.govt.nz"
+        }
+      ]
+    }
+  ],
+  "description": "Description",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "Refset ID"
+          }
+        ]
+      }
+    ]
+  }
+}

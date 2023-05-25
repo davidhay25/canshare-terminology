@@ -1,0 +1,56 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [
+    {
+      "name": "url",
+      "valueUri": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-26"
+    },
+    {
+      "name": "coding",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "-"
+      }
+    },
+    {
+      "name": "dependency",
+      "part": [
+        {
+          "name": "element",
+          "valueUri": "primary-cancer"
+        },
+        {
+          "name": "concept",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "372137005"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "dependency",
+      "part": [
+        {
+          "name": "element",
+          "valueUri": "histology"
+        },
+        {
+          "name": "concept",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "-"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

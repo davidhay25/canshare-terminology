@@ -1,0 +1,34 @@
+{
+  "resourceType": "ConceptMap",
+  "status": "draft",
+  "id": "canshare-cm-22",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-22",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "512001000004108",
+          "display": "Histologic type of primary malignant neoplasm",
+          "target": [
+            {
+              "code": "253211000210102",
+              "display": "NZ WHO histology reference set",
+              "comment": "",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394803006",
+                  "display": "Haematology"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

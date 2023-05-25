@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "canshare-data-absent-reason",
+  "language": "en-x-sctlang-23162100-0210105",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-data-absent-reason",
+  "status": "active",
+  "experimental": false,
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/valuesets",
+      "value": "canshare-data-absent-reason"
+    }
+  ],
+  "publisher": "Te Aho o Te Kahu",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@teaho.govt.nz"
+        }
+      ]
+    }
+  ],
+  "description": "Reasons that no specific value is available.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/21000210109",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "253111000210109"
+          }
+        ]
+      }
+    ]
+  }
+}

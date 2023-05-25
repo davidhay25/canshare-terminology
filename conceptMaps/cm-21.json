@@ -1,0 +1,34 @@
+{
+  "resourceType": "ConceptMap",
+  "status": "draft",
+  "id": "canshare-cm-21",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-21",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "272741003",
+          "display": "Laterality (attribute)",
+          "target": [
+            {
+              "code": "253241000210101",
+              "display": "NZ cancer laterality reference set",
+              "comment": "",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "primary-location",
+                  "system": "http://snomed.info/sct",
+                  "value": "723264001",
+                  "display": "Lateralizable body structure reference set"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

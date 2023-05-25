@@ -1,0 +1,56 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [
+    {
+      "name": "url",
+      "valueUri": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-18"
+    },
+    {
+      "name": "coding",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "399687005"
+      }
+    },
+    {
+      "name": "dependency",
+      "part": [
+        {
+          "name": "element",
+          "valueUri": "cancer-service"
+        },
+        {
+          "name": "concept",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "394593009"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "dependency",
+      "part": [
+        {
+          "name": "element",
+          "valueUri": "primary-cancer"
+        },
+        {
+          "name": "concept",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "372137005"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

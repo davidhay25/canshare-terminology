@@ -1,0 +1,36 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [
+    {
+      "name": "url",
+      "valueUri": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-21"
+    },
+    {
+      "name": "coding",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "272741003"
+      }
+    },
+    {
+      "name": "dependency",
+      "part": [
+        {
+          "name": "element",
+          "valueUri": "primary-location"
+        },
+        {
+          "name": "concept",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "723264001"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
