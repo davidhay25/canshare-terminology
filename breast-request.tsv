@@ -1,0 +1,64 @@
+Pathology Request Breast		Composition											Composition-specific constraints					
+Summary																		
+CanSlim id	SCT id	Data Element Name					Description	Cardinality	Data type	Reference	Code system	Value set	Element Name	Description	Cardinality	Data type	Code system	Value set
+comp		Patient Composition																
+patient-details			Patient details				"Name, identifiers, and demographic details about the patient"											
+				NHI number		qweqw	A unique 7-character identifier assigned to a person by the NHI system	1..1	id									
+				NHI number (original)		qweqw	A unique 7-character identifier assigned to a person by the NHI system (in the original format from before July 2022)	0..1	id									
+				family name		qweqw	The family name (surname) of a person	0..1	string									
+				given name		wqe	The person’s forename or given name at birth	0..1	string									
+				other given names		wer	The person's second and subsequent names or initials.	0..1	string									
+				date of birth		wet45y	The date on which the person was born.	1..1	date									
+				age		t	Age of patient as at today.	0..1	age									
+				gender			A classification of the person’s gender as self-identified by the person	0..1	Codeable		Other							
+				sex		weq		0..1	Codeable		Other							
+				ethnicity		r34	A classification of the ethnicity of an individual person as self-identified by the person	0..*	Codeable		Other							
+				address		address	The person’s current address or location details if known (in NZ CIQ address profile format)	0..*	Reference									
+					address type	typ	"The type of address, e.g. residential, mailing"	0..1	Codeable		Other							
+					number	nbr	The unique number given to a property on a named street	0..1	string									
+					road name	road	The name of the road that an address is on	0..1	string									
+					suburb/locality	sub	A named geographical area defining a community of interest	0..1	string									
+					city/town	city	The name of a city of town in which an address is located	0..1	string									
+pathrequest-details			Request details			yw	General details about the pathology request											
+				request identifier		t425	The identifier for the request.	1..1	id									
+				request date		65	The date (and time?) that the request was sent	0..1	date									
+				requester		pract	The healthcare practitioner and/or organisation that is making the request.	0..1	Reference	hc-practitioner								
+					name	y5	The name of the healthcare practitioner	1..1	string									
+					identifier	675	The identifier of the healthcare practitioner	1..1	id									
+					facility name	yr	The name of the facility from which the healthcare practitioner works	0..1	string									
+					facility identifier	tw	The identifier of the facility from which the healthcare practitioner works	0..1	id									
+					contact information	645	The contact information of the healthcare practitioner	0..1	string									
+				performer		pract	The healthcare practitioner and/or organisation from whom the service is being requested.	0..1	Reference	hc-practitioner								
+					name	43543	The name of the healthcare practitioner	1..1	string									
+					identifier	7	The identifier of the healthcare practitioner	1..1	id									
+					facility name	yq	The name of the facility from which the healthcare practitioner works	0..1	string									
+					facility identifier	r13	The identifier of the facility from which the healthcare practitioner works	0..1	id									
+					contact information	456	The contact information of the healthcare practitioner	0..1	string									
+				copy to		pract	The healthcare practitioner(s) to whom a copy of the report should be sent	0..*	Reference	hc-practitioner								
+					name	425	The name of the healthcare practitioner	1..1	string									
+					identifier		The identifier of the healthcare practitioner	1..1	id									
+					facility name		The name of the facility from which the healthcare practitioner works	0..1	string									
+					facility identifier		The identifier of the facility from which the healthcare practitioner works	0..1	id									
+					contact information		The contact information of the healthcare practitioner	0..1	string									
+specimen-details			Specimen details															
+				Collection datetime			The date and/or time that the sample/specimen was collected	1..1	Timing									
+				Received datetime			The date and/or time that the sample/specimen was received		Timing									
+				Consent details			Whether or not the patient has consented to tissue banking	0..1	Codeable		SCT							
+				Site details			The site from which the specimen was taken	0..*	Reference									
+					body structure		The anatomical structure being described	1..1	Codeable		SCT							
+					laterality		The laterality of a paired organ	0..1	Codeable		SCT							
+					body landmark		"A significant landmark near the body site, e.g. nipple"	0..1	Codeable		SCT							
+					clock face position		Clockface orientation from the landmark	0..1	Codeable		SCT							
+					distance from landmark		The distance from the given landmark	0..1	Quantity									
+					description		Text description of the body site	0..1	string									
+					image		Attached images	0..*										
+					lesion size			0..1	Quantity									
+																		
+																		
+																		
+																		
+																		
+																		
+																		
+																		
+clinical-info			Clinical information															
