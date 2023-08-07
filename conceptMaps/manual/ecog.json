@@ -1,0 +1,62 @@
+{
+  "resourceType": "ConceptMap",
+  "status": "draft",
+  "id": "canshare-ecog",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-ecog",
+  "identifier": {
+    "system": "http://canshare.co.nz/fhir/NamingSystem/conceptmaps",
+    "value": "canshare-ecog"
+  },
+  "title": "Test CanShare ecog status",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "423740007",
+          "display": "ECOG status",
+          "target": [
+            {
+              "code": "425389002",
+              "display": "Grade 0",
+              "equivalence": "relatedto"
+            
+            },
+            {
+              "code": "422512005",
+              "display": "Grade 1",
+              "equivalence": "relatedto"
+            
+            },
+            {
+              "code": "422894000",
+              "display": "Grade 2",
+              "equivalence": "relatedto"
+            
+            },
+            {
+              "code": "423053003",
+              "display": "Grade 3",
+              "equivalence": "relatedto"
+            
+            },
+            {
+              "code": "423237006",
+              "display": "Grade 4",
+              "equivalence": "relatedto"
+            
+            },
+            {
+              "code": "423409001",
+              "display": "Grade 5",
+              "equivalence": "relatedto"
+            
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}
