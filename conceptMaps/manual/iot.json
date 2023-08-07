@@ -12,6 +12,8 @@
   "title":"Treatment intent",
   "experimental":true,
   "publisher": "Te Aho o Te Kahu",
+  "sourceCanonical": "http://snomed.info/sct?fhir_vs",
+  "targetCanonical": "http://snomed.info/sct?fhir_vs",
   "group": [
     {
       "source": "http://snomed.info/sct",

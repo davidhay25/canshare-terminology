@@ -33,8 +33,7 @@ getAccessToken().then(async function(at) {
             console.log(qry)
     let config = {headers:{authorization:'Bearer ' + at}}
     config['Content-Type'] = "application/fhir+json"
-    //let content=JSON.stringify(cm)
-    //console.log(config)
+
     try {
         await axios.put(qry,cm,config)
     } catch (ex) {
