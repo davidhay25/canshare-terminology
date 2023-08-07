@@ -1,14 +1,16 @@
 {
   "resourceType": "ConceptMap",
   "status": "draft",
-  "id": "canshare-cm-18",
-  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-cm-18",
+  "id": "cs-testcm",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/cs-testcm",
   "identifier": [
     {
       "system": "http://canshare.co.nz/fhir/NamingSystem/conceptmaps",
-      "value": "cm-a8"
+      "value": "cs-testcm"
     }
   ],
+  "title":"Test CanShare conceptmap",
+  "experimental":true,
   "publisher": "Te Aho o Te Kahu",
   "group": [
     {

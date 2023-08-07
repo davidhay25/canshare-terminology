@@ -25,6 +25,29 @@ async function getAccessToken() {
 }
 
 
+//upoad a single file
+getAccessToken().then(async function(at) {
+
+    let cm = JSON.parse(fs.readFileSync('./conceptMaps/cs-testcm.json').toString())
+    let qry = `https://authoring.nzhts.digital.health.nz/fhir/ConceptMap/${cm.id}` 
+            console.log(qry)
+    let config = {headers:{authorization:'Bearer ' + at}}
+    config['Content-Type'] = "application/fhir+json"
+    //let content=JSON.stringify(cm)
+    //console.log(config)
+    try {
+        await axios.put(qry,cm,config)
+    } catch (ex) {
+        console.log(ex.response.data)
+    }
+
+    console.log(cm)
+
+})
+
+
+
+return
 
 //upload all contents of a bundle
 getAccessToken().then(
