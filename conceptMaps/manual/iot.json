@@ -1,15 +1,15 @@
 {
   "resourceType": "ConceptMap",
   "status": "draft",
-  "id": "canshare-treatment-intent",
-  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-treatment-intent",
+  "id": "canshare-treatment-intent-2",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-treatment-intent-2",
   "identifier": [
     {
       "system": "http://canshare.co.nz/fhir/NamingSystem/conceptmaps",
-      "value": "canshare-treatment-intent"
+      "value": "canshare-treatment-intent-2"
     }
   ],
-  "title":"Treatment intent",
+  "title":"Treatment intent (v2)",
   "experimental":true,
   "publisher": "Te Aho o Te Kahu",
   "sourceCanonical": "http://snomed.info/sct?fhir_vs",
