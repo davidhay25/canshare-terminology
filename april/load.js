@@ -27,8 +27,8 @@ async function getAccessToken() {
 
 //upoad a single file
 getAccessToken().then(async function(at) {
-
-    let cm = JSON.parse(fs.readFileSync('./conceptMaps/manual/iot.json').toString())
+    let cm = JSON.parse(fs.readFileSync('./canshare-scripted.json').toString())
+    //let cm = JSON.parse(fs.readFileSync('./conceptMaps/manual/iot.json').toString())
     let qry = `https://authoring.nzhts.digital.health.nz/fhir/ConceptMap/${cm.id}` 
             console.log(qry)
     let config = {headers:{authorization:'Bearer ' + at}}

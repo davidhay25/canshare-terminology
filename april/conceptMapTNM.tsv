@@ -1,0 +1,15 @@
+20230401	423740007	ECOG performance status	Value Set	253301000210109	NZ cancer ECOG status reference set	canshare-ecog-status																							
+20230401	399504009	cT category	Value Set	253451000210104	NZ AJCC clinical T category reference set	canshare-tnm-ct	Cancer service	=			Cancer stream	=																	
+20230401	399504009	cT category	Value Set	253491000210106	NZ AJCC breast clinical T category reference set	canshare-tnm-breast-ct	Cancer service	=	394593009	Medical oncology	Cancer stream	=	372137005	Breast primary															
+20230401	384625004	pT category	Value Set	253461000210101	NZ AJCC pathological T category reference set	canshare-tnm-pt	Cancer service	=			Cancer stream	=																	
+20230401	384625004	pT category	Value Set	253511000210104	NZ AJCC breast pathological T category reference set	canshare-tnm-breast-pt	Cancer service	=	394593009	Medical oncology	Cancer stream	=	372137005	Breast primary															
+20230401	399534004	cN category	Value Set	253471000210107	NZ AJCC clinical N category reference set	canshare-tnm-cn	Cancer service	=			Cancer stream	=																	
+20230401	399534004	cN category	Value Set	253531000210106	NZ AJCC breast clinical N category reference set	canshare-tnm-breast-cn	Cancer service	=	394593009	Medical oncology	Cancer stream	=	372137005	Breast primary															
+20230401	371494008	pN category	Value Set	253481000210109	NZ AJCC pathological N category reference set	canshare-tnm-pn	Cancer service	=			Cancer stream	=																	
+20230401	371494008	pN category	Value Set	253551000210100	NZ AJCC breast pathological N category reference set	canshare-tnm-breast-pn	Cancer service	=	394593009	Medical oncology	Cancer stream	=	372137005	Breast primary															
+20230401	399387003	cM category	Value Set	253651000210101	NZ AJCC clinical M category reference set	canshare-tnm-cm	Cancer service	=			Cancer stream	=																	
+20230401	399387003	cM category	Value Set	253701000210108	NZ AJCC breast clinical M category reference set	canshare-tnm-breast-cm	Cancer service	=	394593009	Medical oncology	Cancer stream	=	372137005	Breast primary															
+20230401	371497001	pM category	Value Set	253661000210103	NZ AJCC pathological M category reference set	canshare-tnm-pm	Cancer service	=			Cancer stream	=																	
+20230401	371497001	pM category	Value Set	253721000210100	NZ AJCC breast pathological M category reference set	canshare-tnm-breast-pm	Cancer service	=	394593009	Medical oncology	Cancer stream	=	372137005	Breast primary															
+20230401	363703001	Treatment intent	Value Set	253861000210104	NZ cancer medical oncology treatment intent reference set	canshare-mo-treatment-intent	Cancer service	=	394593009	Medical oncology																			
+20230401	363703001	Treatment intent	Value Set	253871000210105	NZ cancer haematology treatment intent reference set	canshare-haematology-treatment-intent	Cancer service	=	394803006	Haematology																			
