@@ -1,0 +1,304 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "canshare-scripted",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-scripted",
+  "identifier": {
+    "value": "canshare-scripted",
+    "system": "http://canshare.co.nz/fhir/NamingSystem/conceptmaps"
+  },
+  "title": "ConceptMap generated from Spreadsheet",
+  "status": "draft",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "363703001",
+          "display": "Treatment intent",
+          "target": [
+            {
+              "code": "253861000210104",
+              "display": "NZ cancer medical oncology treatment intent reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                }
+              ]
+            },
+            {
+              "code": "253871000210105",
+              "display": "NZ cancer haematology treatment intent reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394803006",
+                  "display": "Haematology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "371494008",
+          "display": "pN category",
+          "target": [
+            {
+              "code": "253481000210109",
+              "display": "NZ AJCC pathological N category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No service specified"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No stream specified"
+                }
+              ]
+            },
+            {
+              "code": "253551000210100",
+              "display": "NZ AJCC breast pathological N category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "371497001",
+          "display": "pM category",
+          "target": [
+            {
+              "code": "253661000210103",
+              "display": "NZ AJCC pathological M category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No service specified"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No stream specified"
+                }
+              ]
+            },
+            {
+              "code": "253721000210100",
+              "display": "NZ AJCC breast pathological M category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "384625004",
+          "display": "pT category",
+          "target": [
+            {
+              "code": "253461000210101",
+              "display": "NZ AJCC pathological T category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No service specified"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No stream specified"
+                }
+              ]
+            },
+            {
+              "code": "253511000210104",
+              "display": "NZ AJCC breast pathological T category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "399387003",
+          "display": "cM category",
+          "target": [
+            {
+              "code": "253651000210101",
+              "display": "NZ AJCC clinical M category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No service specified"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No stream specified"
+                }
+              ]
+            },
+            {
+              "code": "253701000210108",
+              "display": "NZ AJCC breast clinical M category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "399504009",
+          "display": "cT category",
+          "target": [
+            {
+              "code": "253451000210104",
+              "display": "NZ AJCC clinical T category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No service specified"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No stream specified"
+                }
+              ]
+            },
+            {
+              "code": "253491000210106",
+              "display": "NZ AJCC breast clinical T category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "399534004",
+          "display": "cN category",
+          "target": [
+            {
+              "code": "253471000210107",
+              "display": "NZ AJCC clinical N category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No service specified"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No stream specified"
+                }
+              ]
+            },
+            {
+              "code": "253531000210106",
+              "display": "NZ AJCC breast clinical N category reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "423740007",
+          "display": "ECOG performance status",
+          "target": [
+            {
+              "code": "253301000210109",
+              "display": "NZ cancer ECOG status reference set",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No service specified"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                  "value": "none",
+                  "display": "No stream specified"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

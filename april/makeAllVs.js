@@ -62,9 +62,6 @@ arValueSets.forEach(function(row,inx){
 
   let filename = `./valuesets/bundle.json`
   fs.writeFileSync(filename,JSON.stringify(bundle,null,2))
-
-
-
 })
 
 
