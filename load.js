@@ -15,7 +15,7 @@ async function getAccessToken() {
     
     try {
         let result = await axios.post(url,body)
-        console.log(result.data['access_token'])
+        //console.log(result.data['access_token'])
         return result.data['access_token']
     } catch (ex) {
         console.log(ex)
@@ -28,7 +28,7 @@ async function getAccessToken() {
 //upoad a single file
 getAccessToken().then(async function(at) {
 
-    let cm = JSON.parse(fs.readFileSync('./conceptMaps/manual/iot.json').toString())
+    let cm = JSON.parse(fs.readFileSync('./conceptMaps/manual/tnm-vs.json').toString())
     let qry = `https://authoring.nzhts.digital.health.nz/fhir/ConceptMap/${cm.id}` 
             console.log(qry)
     let config = {headers:{authorization:'Bearer ' + at}}

@@ -1,0 +1,16 @@
+Release	SOURCE  (observable entity/attribute)		Value/  Value set	TARGET	Element id	Element name	OP	Concept id	Concept name /  Value set id	Element id	Element name	OP	Concept id	Concept name /  Value set id	Element id	Element name	OP	Concept id	Concept name /  Value set id	Element id	Element name	OP	Concept id	Concept name /  Value set id	Element id	Element name	OP	Concept id	Concept name /  Value set id
+20230401	423740007	ECOG performance status	Value set	canshare-ecog-status																									
+20230401	399504009	cT category	Value set	canshare-tnm-ct	299801000210106 	Cancer service	=			299811000210108 	Cancer stream	=																	
+20230401	399504009	cT category	Value set	canshare-tnm-breast-ct	299801000210106 	Cancer service	=	394593009	Medical oncology	299811000210108 	Cancer stream	=	372137005	Breast primary															
+20230401	384625004	pT category	Value set	canshare-tnm-pt	299801000210106 	Cancer service	=			299811000210108 	Cancer stream	=																	
+20230401	384625004	pT category	Value set	canshare-tnm-breast-pt	299801000210106 	Cancer service	=	394593009	Medical oncology	299811000210108 	Cancer stream	=	372137005	Breast primary															
+20230401	399534004	cN category	Value set	canshare-tnm-cn	299801000210106 	Cancer service	=			299811000210108 	Cancer stream	=																	
+20230401	399534004	cN category	Value set	canshare-tnm-breast-cn	299801000210106 	Cancer service	=	394593009	Medical oncology	299811000210108 	Cancer stream	=	372137005	Breast primary															
+20230401	371494008	pN category	Value set	canshare-tnm-pn	299801000210106 	Cancer service	=			299811000210108 	Cancer stream	=																	
+20230401	371494008	pN category	Value set	canshare-tnm-breast-pn	299801000210106 	Cancer service	=	394593009	Medical oncology	299811000210108 	Cancer stream	=	372137005	Breast primary															
+20230401	399387003	cM category	Value set	canshare-tnm-cm	299801000210106 	Cancer service	=			299811000210108 	Cancer stream	=																	
+20230401	399387003	cM category	Value set	canshare-tnm-breast-cm	299801000210106 	Cancer service	=	394593009	Medical oncology	299811000210108 	Cancer stream	=	372137005	Breast primary															
+20230401	371497001	pM category	Value set	canshare-tnm-pm	299801000210106 	Cancer service	=			299811000210108 	Cancer stream	=																	
+20230401	371497001	pM category	Value set	canshare-tnm-breast-pm	299801000210106 	Cancer service	=	394593009	Medical oncology	299811000210108 	Cancer stream	=	372137005	Breast primary															
+20230401	363703001	Treatment intent	Value set	canshare-mo-treatment-intent	299801000210106 	Cancer service	=	394593009	Medical oncology																				
+20230401	363703001	Treatment intent	Value set	canshare-haematology-treatment-intent	299801000210106 	Cancer service	=	394803006	Haematology																				

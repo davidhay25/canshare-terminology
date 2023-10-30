@@ -1,0 +1,190 @@
+{
+  "resourceType": "ConceptMap",
+  "status": "draft",
+  "id": "canshare-tnm-vs",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-tnm-vs",
+  "identifier": {
+    "system": "http://canshare.co.nz/fhir/NamingSystem/conceptmaps",
+    "value": "canshare-tnm-vs"
+  },
+  "title": "Test CanShare TNM VS",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "399504009",
+          "display": "cT",
+          "target": [
+            {
+                "code": "253451000210104",
+                "display": "refset code for all ct",
+                "equivalence": "relatedto",
+                "dependsOn": [
+                  {
+                    "property": "cancer-service",
+                    "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                    "value": "none",
+                    "display": "No service specified"
+                  },
+                  {
+                    "property": "cancer-stream",
+                    "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                    "value": "none",
+                    "display": "No stream specified"
+                  }
+                ],
+                "extension" : [
+                  {
+                      "url":"http://canshare.co.nz/fhir/StructureDefinition/conceptmap-valueset",
+                      "valueUri":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-ct"
+                  }
+                ]
+              
+              },
+            {
+              "code": "253491000210106",
+              "display": "refset code for breast ct (row 4)",
+              "equivalence": "relatedto",
+              "extension" : [
+                {
+                    "url":"http://canshare.co.nz/fhir/StructureDefinition/conceptmap-valueset",
+                    "valueUri":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-ct"
+                }
+              ],
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            
+            },
+            {
+              "code": "refsetcode",
+              "display": "refset code for lung ct (no row)",
+              "equivalence": "relatedto",
+              "extension" : [
+                {
+                    "url":"http://canshare.co.nz/fhir/StructureDefinition/conceptmap-valueset",
+                    "valueUri":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-lung-ct"
+                }
+              ],
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "xxxxx",
+                  "display": "Lung primary"
+                }
+              ]
+            
+            }
+
+          ]
+        },
+        {
+          "code": "384625004",
+          "display": "pT",
+          "target": [
+            {
+                "code": "253461000210101",
+                "display": "refset code for all pt",
+                "equivalence": "relatedto",
+                "dependsOn": [
+                  {
+                    "property": "cancer-service",
+                    "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                    "value": "none",
+                    "display": "No service specified"
+                  },
+                  {
+                    "property": "cancer-stream",
+                    "system": "http://canshare.co.nz/fhir/NamingSystem/cs",
+                    "value": "none",
+                    "display": "No stream specified"
+                  }
+                ],
+                "extension" : [
+                  {
+                      "url":"http://canshare.co.nz/fhir/StructureDefinition/conceptmap-valueset",
+                      "valueUri":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-pt"
+                  }
+                ]
+              
+              },
+            {
+              "code": "253511000210104",
+              "display": "refset code for breast pt (row 5)",
+              "equivalence": "relatedto",
+              "extension" : [
+                {
+                    "url":"http://canshare.co.nz/fhir/StructureDefinition/conceptmap-valueset",
+                    "valueUri":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-breast-pt"
+                }
+              ],
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            
+            },
+            {
+              "code": "refsetcode",
+              "display": "refset code for lung pt (no row)",
+              "equivalence": "relatedto",
+              "extension" : [
+                {
+                    "url":"http://canshare.co.nz/fhir/StructureDefinition/conceptmap-valueset",
+                    "valueUri":"https://nzhts.digital.health.nz/fhir/ValueSet/canshare-tnm-lung-pt"
+                }
+              ],
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "xxxxx",
+                  "display": "Lung primary"
+                }
+              ]
+            
+            }
+
+          ]
+        }
+
+      ]
+    }
+  ]
+}
