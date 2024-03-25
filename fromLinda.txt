@@ -1,0 +1,14 @@
+Hi David,
+
+As per my previous email, I think we should try this again with some different versioning parameters. Note: versioning seems to be the "challenge of the day" doesn't it! 🙂
+
+And yes - the first link has the Concept Maps that should (hopefully) be ready to test:
+https://docs.google.com/spreadsheets/d/1S-08cA1m-CAy8humztO0S5Djr_wtXibmNn6w4_uFCIE/edit#gid=285304653
+
+The second link has the complete set of Concept Maps (both ready for testing, plus draft and WIP ones)
+https://docs.google.com/spreadsheets/d/1S-08cA1m-CAy8humztO0S5Djr_wtXibmNn6w4_uFCIE/edit#gid=245875863
+
+And then this sheet has the observable codes and dependency-property-tags that we need for the initial Rau Rau work:
+https://docs.google.com/spreadsheets/d/1S-08cA1m-CAy8humztO0S5Djr_wtXibmNn6w4_uFCIE/edit#gid=1518541776
+
+Note: The concept maps for Rau Rau are still not yet complete .... but hopefully there are enough there to start testing.

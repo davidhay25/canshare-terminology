@@ -1,0 +1,2683 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "canshare-scripted-dec",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-scripted-dec",
+  "identifier": {
+    "value": "canshare-scripted-dec",
+    "system": "http://canshare.co.nz/fhir/NamingSystem/conceptmaps"
+  },
+  "title": "December ConceptMap",
+  "status": "draft",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "399687005",
+          "display": "Primary site",
+          "target": [
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-topography",
+              "display": "canshare-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer service"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-high-level-topography",
+              "display": "canshare-high-level-topography",
+              "equivalence": "relatedto",
+              "dependsOn": []
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-breast-topography",
+              "display": "canshare-breast-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-breast-topography",
+              "display": "canshare-breast-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-breast-topography",
+              "display": "canshare-breast-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-topography",
+              "display": "canshare-thorax-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Thoracic primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-topography",
+              "display": "canshare-thorax-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Thoracic primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-thymus-topography",
+              "display": "canshare-thorax-thymus-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "94096009",
+                  "display": "Thymus primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-lung-topography",
+              "display": "canshare-thorax-lung-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "93880001",
+                  "display": "Lung primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thorax-pleura-topography",
+              "display": "canshare-thorax-pleura-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "93966009",
+                  "display": "Pleural primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-unknown-site-topography",
+              "display": "canshare-unknown-site-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "310504009",
+                  "display": "Unknown primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-unknown-site-topography",
+              "display": "canshare-unknown-site-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "310504009",
+                  "display": "Unknown primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-unknown-site-topography",
+              "display": "canshare-unknown-site-topography",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "310504009",
+                  "display": "Unknown primary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "299801000210106",
+          "display": "Cancer service",
+          "target": [
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-service",
+              "display": "canshare-cancer-service",
+              "equivalence": "relatedto",
+              "dependsOn": []
+            }
+          ]
+        },
+        {
+          "code": "299811000210108",
+          "display": "Cancer stream",
+          "target": [
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-stream",
+              "display": "canshare-cancer-stream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer service"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-solid-cancer-stream",
+              "display": "canshare-solid-cancer-stream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-stream",
+              "display": "canshare-haematology-stream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394803006",
+                  "display": "Haematology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "299821000210103",
+          "display": "Cancer substream",
+          "target": [
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-substream",
+              "display": "canshare-cancer-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer service"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-solid-tumour-substream",
+              "display": "canshare-solid-tumour-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "372137005",
+              "display": "Breast primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            },
+            {
+              "code": "93744007",
+              "display": "CNS primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93744007",
+                  "display": "CNS primary"
+                }
+              ]
+            },
+            {
+              "code": "371986009",
+              "display": "Eye primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "371986009",
+                  "display": "Eye primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gastro-substream",
+              "display": "canshare-gastro-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297901000210108",
+                  "display": "Gastrointestinal primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-genitourinary-substream",
+              "display": "canshare-genitourinary-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298271000210105",
+                  "display": "Genitourinary primary"
+                }
+              ]
+            },
+            {
+              "code": "297911000210105",
+              "display": "Gynaecological primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297911000210105",
+                  "display": "Gynaecological primary"
+                }
+              ]
+            },
+            {
+              "code": "297921000210100 ",
+              "display": "Head and neck primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297921000210100",
+                  "display": "Head and neck primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-endocrine-neuroendocrine-substream",
+              "display": "canshare-endocrine-neuroendocrine-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297931000210103",
+                  "display": "Endocrine and/or neuroendocrine primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-soft-tissue-bone-substream",
+              "display": "canshare-soft-tissue-bone-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298141000210109",
+                  "display": "Soft tissue and/or bone primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-skin-melanoma-substream",
+              "display": "canshare-skin-melanoma-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298151000210107",
+                  "display": "Skin and/or melanoma primary"
+                }
+              ]
+            },
+            {
+              "code": "298161000210105",
+              "display": "Thoracic primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298161000210105",
+                  "display": "Thoracic primary"
+                }
+              ]
+            },
+            {
+              "code": "310504009",
+              "display": "Unknown primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "310504009",
+                  "display": "Unknown primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-substream",
+              "display": "canshare-haematology-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394803006",
+                  "display": "Haematology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "425333006",
+              "display": "Myeloproliferative neoplasm",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "425333006",
+                  "display": "Myeloproliferative neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-b-cell-lymphoid-substream",
+              "display": "canshare-b-cell-lymphoid-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298491000210105",
+                  "display": "B-cell lymphoid neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-t-nk-cell-lymphoid-substream",
+              "display": "canshare-t-nk-cell-lymphoid-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298171000210104",
+                  "display": "T/NK-cell lymphoid neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-leukaemia-substream",
+              "display": "canshare-leukaemia-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93143009",
+                  "display": "Leukaemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphoma-substream",
+              "display": "canshare-lymphoma-substream",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118600007",
+                  "display": "Lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "737224006",
+              "display": "Histiocytic and/or dendritic cell neoplasm",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "737224006",
+                  "display": "Histiocytic and/or dendritic cell neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "298171000210104",
+              "display": "Stroma-derived neoplasm of lymphoid tissue",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298171000210104",
+                  "display": "Stroma-derived neoplasm of lymphoid tissue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "299831000210101",
+          "display": "Cancer type",
+          "target": [
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cancer-type",
+              "display": "canshare-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer service"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/cancer-solid-tumour-cancer-type",
+              "display": "cancer-solid-tumour-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "372137005",
+              "display": "Breast primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "372137005",
+              "display": "Breast primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cns-cancer-type",
+              "display": "canshare-cns-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93744007",
+                  "display": "CNS primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-cns-cancer-type",
+              "display": "canshare-cns-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93744007",
+                  "display": "CNS primary"
+                }
+              ]
+            },
+            {
+              "code": "371986009",
+              "display": "Eye primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "371986009",
+                  "display": "Eye primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "371986009",
+              "display": "Eye primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "371986009",
+                  "display": "Eye primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gastro-cancer-type",
+              "display": "canshare-gastro-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297901000210108",
+                  "display": "Gastrointestinal primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-upper-gastro-cancer-type",
+              "display": "canshare-upper-gastro-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298201000210103",
+                  "display": "Upper gastrointestinal primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lower-gastro-cancer-type",
+              "display": "canshare-lower-gastro-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298191000210100",
+                  "display": "Lower gastrointestinal primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-colorectal-cancer-type",
+              "display": "canshare-colorectal-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298181000210102",
+                  "display": "Colorectal primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-hepatopancreaticobiliary-cancer-type",
+              "display": "canshare-hepatopancreaticobiliary-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "300531000210100",
+                  "display": "Hepatopancreaticobiliary primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-genitourinary-cancer-type",
+              "display": "canshare-genitourinary-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298271000210105",
+                  "display": "Genitourinary primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "None",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "93974005",
+              "display": "Prostate primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93974005",
+                  "display": "Prostate primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-non-prostate-genitourinary-cancer-type",
+              "display": "canshare-non-prostate-genitourinary-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "303321000210102",
+                  "display": "Genitourinary (non-prostate) primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-male-genital-cancer-type",
+              "display": "canshare-male-genital-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93885006",
+                  "display": "Male genital primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-urinary-system-cancer-type",
+              "display": "canshare-urinary-system-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "94125001",
+                  "display": "Urinary system primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gynaecological-cancer-type",
+              "display": "canshare-gynaecological-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297911000210105",
+                  "display": "Gynaecological primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-gynaecological-cancer-type",
+              "display": "canshare-gynaecological-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297911000210105",
+                  "display": "Gynaecological primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-head-neck-cancer-type",
+              "display": "canshare-head-neck-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297921000210100",
+                  "display": "Head and neck primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-head-neck-cancer-type",
+              "display": "canshare-head-neck-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297921000210100",
+                  "display": "Head and neck primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-endocrine-neuroendocrine-cancer-type",
+              "display": "canshare-endocrine-neuroendocrine-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297931000210103",
+                  "display": "Endocrine and/or neuroendocrine primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-neuroendocrine-cancer-type",
+              "display": "canshare-neuroendocrine-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298221000210106",
+                  "display": "Neuroendocrine primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-neuroendocrine-gep-cancer-type",
+              "display": "canshare-neuroendocrine-gep-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "300781000210107",
+                  "display": "Neuroendocrine GEP primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-neuroendocrine-non-gep-cancer-type",
+              "display": "canshare-neuroendocrine-non-gep-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "300721000210106",
+                  "display": "Neuroendocrine non-GEP primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-endocrine-cancer-type",
+              "display": "canshare-endocrine-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298231000210108",
+                  "display": "Endocrine primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-soft-tissue-bone-cancer-type",
+              "display": "canshare-soft-tissue-bone-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298141000210109",
+                  "display": "Soft tissue and/or bone primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-soft-tissue-cancer-type",
+              "display": "canshare-soft-tissue-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372010005",
+                  "display": "Soft tissue primary"
+                }
+              ]
+            },
+            {
+              "code": "93725000",
+              "display": "Bone primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93725000",
+                  "display": "Bone primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-skin-melanoma-cancer-type",
+              "display": "canshare-skin-melanoma-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298151000210107",
+                  "display": "Skin and/or melanoma primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-skin-cancer-type",
+              "display": "canshare-skin-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "94047004",
+                  "display": "Skin primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-melanoma-cancer-type",
+              "display": "canshare-melanoma-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298511000210103",
+                  "display": "Melenoma primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thoracic-cancer-type",
+              "display": "canshare-thoracic-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298161000210105",
+                  "display": "Thoracic primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-thoracic-cancer-type",
+              "display": "canshare-thoracic-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298161000210105",
+                  "display": "Thoracic primary"
+                }
+              ]
+            },
+            {
+              "code": "310504009",
+              "display": "Unknown primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "310504009",
+                  "display": "Unknown primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "310504009",
+              "display": "Unknown primary",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "310504009",
+                  "display": "Unknown primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-haematology-cancer-type",
+              "display": "canshare-haematology-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394803006",
+                  "display": "Haematology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-myeloproliferative-cancer-type",
+              "display": "canshare-myeloproliferative-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "425333006",
+                  "display": "Myeloproliferative neoplasm"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-myeloproliferative-cancer-type",
+              "display": "canshare-myeloproliferative-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "425333006",
+                  "display": "Myeloproliferative neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-b-cell-lymphoid-cancer-type",
+              "display": "canshare-b-cell-lymphoid-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298491000210105",
+                  "display": "B-cell lymphoid neoplasm"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-b-cell-lymphoid-cancer-type",
+              "display": "canshare-b-cell-lymphoid-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298491000210105",
+                  "display": "B-cell lymphoid neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-plasma-cell-cancer-type",
+              "display": "canshare-plasma-cell-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "415111003",
+                  "display": "Plasma cell neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-t-nk-cell-lymphoid-cancer-type",
+              "display": "canshare-t-nk-cell-lymphoid-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298171000210104",
+                  "display": "T/NK-cell lymphoid neoplasm"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-t-nk-cell-lymphoid-cancer-type",
+              "display": "canshare-t-nk-cell-lymphoid-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298171000210104",
+                  "display": "T/NK-cell lymphoid neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-leukaemia-cancer-type",
+              "display": "canshare-leukaemia-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93143009",
+                  "display": "Leukaemia"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-leukaemia-cancer-type",
+              "display": "canshare-leukaemia-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93143009",
+                  "display": "Leukaemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-acute-leukaemia-cancer-type",
+              "display": "canshare-acute-leukaemia-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "91855006",
+                  "display": "Acute leukaemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-chronic-leukaemia-cancer-type",
+              "display": "canshare-chronic-leukaemia-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "92812005",
+                  "display": "Chronic leukaemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphoma-cancer-type",
+              "display": "canshare-lymphoma-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118600007",
+                  "display": "Lymphoma"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-lymphoma-cancer-type",
+              "display": "canshare-lymphoma-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118600007",
+                  "display": "Lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-b-cell-lymphoma-cancer-type",
+              "display": "canshare-b-cell-lymphoma-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "109979007",
+                  "display": "B-cell lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-t-nk-cell-lymphoma-cancer-type",
+              "display": "canshare-t-nk-cell-lymphoma-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "109978004",
+                  "display": "T/NK-cell lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "118599009",
+              "display": "Hodgkin lymphoma",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118599009",
+                  "display": "Hodgkin lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-non-hodgkin-lymphoma-cancer-type",
+              "display": "canshare-non-hodgkin-lymphoma-cancer-type",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118601006",
+                  "display": "Non-Hodgkin lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "118599009",
+              "display": "Hodgkin lymphoma",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118599009",
+                  "display": "Hodgkin lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "737224006",
+              "display": "Histiocytic and/or dendritic cell neoplasm",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "737224006",
+                  "display": "Histiocytic and/or dendritic cell neoplasm"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "737224006",
+              "display": "Histiocytic and/or dendritic cell neoplasm",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "737224006",
+                  "display": "Histiocytic and/or dendritic cell neoplasm"
+                }
+              ]
+            },
+            {
+              "code": "298171000210104",
+              "display": "Stroma-derived neoplasm of lymphoid tissue",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298171000210104",
+                  "display": "Stroma-derived neoplasm of lymphoid tissue"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "298171000210104",
+              "display": "Stroma-derived neoplasm of lymphoid tissue",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298171000210104",
+                  "display": "Stroma-derived neoplasm of lymphoid tissue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "297561000210100",
+          "display": "Laterality of primary site",
+          "target": [
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-laterality",
+              "display": "canshare-laterality",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "primary-site",
+                  "system": "http://snomed.info/sct",
+                  "value": "723264001",
+                  "display": "Lateralisable body structure reference set"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "512001000004108",
+          "display": "Histologic type of primary",
+          "target": [
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-histology",
+              "display": "canshare-who-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer service"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-histology",
+              "display": "canshare-who-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "310504009",
+                  "display": "Unknown primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-histology",
+              "display": "canshare-who-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "310504009",
+                  "display": "Unknown primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-histology",
+              "display": "canshare-who-haematology-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394803006",
+                  "display": "Haematology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-myeloid-histology",
+              "display": "canshare-who-haematology-myeloid-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "20231001",
+                  "display": "Myeloproliferative neoplasm"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-histiocytic-histology",
+              "display": "canshare-who-haematology-histiocytic-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "737224006",
+                  "display": "Histiocytic and/or dendritic cell neoplasm"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-b-cell-histology",
+              "display": "canshare-who-haematology-b-cell-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298491000210105",
+                  "display": "B-cell lymphoid neoplasm"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-t-nk-cell-histology",
+              "display": "canshare-who-haematology-t-nk-cell-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298171000210104",
+                  "display": "T/NK-cell lymphoid neoplasm"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-stroma-histology",
+              "display": "canshare-who-haematology-stroma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298171000210104",
+                  "display": "Stroma-derived neoplasm of lymphoid tissue"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-aml-histology",
+              "display": "canshare-who-haematology-aml-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "91861009",
+                  "display": "Acute myeloid leukemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-all-histology",
+              "display": "canshare-who-haematology-all-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "91857003",
+                  "display": "Acute lymphoblastic leukaemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-acute-leukaemia-ambiguous-lineage-histology",
+              "display": "canshare-who-haematology-acute-leukaemia-ambiguous-lineage-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "298241000210100",
+                  "display": "Acute leukaemia of mixed or ambiguous lineage"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-cml-histology",
+              "display": "canshare-who-haematology-cml-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "92818009",
+                  "display": "Chronic myeloid leukaemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-pv-histology",
+              "display": "canshare-who-haematology-pv-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "109992005",
+                  "display": "Polycythaemia vera"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-et-histology",
+              "display": "canshare-who-haematology-et-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "109994006",
+                  "display": "Essential thrombocythaemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-myelofibrosis-histology",
+              "display": "canshare-who-haematology-myelofibrosis-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "52967002",
+                  "display": "Myelofibrosis"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-mds-histology",
+              "display": "canshare-who-haematology-mds-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "109995007",
+                  "display": "Myelodysplastic syndrome"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-histology-cll-histology",
+              "display": "canshare-who-histology-cll-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "92814006",
+                  "display": "Chronic lymphocytic leukaemia"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-sll-histology",
+              "display": "canshare-who-haematology-sll-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "302841002",
+                  "display": "Small lymphocytic lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-lymphoplasmacytic-lymphoma-histology",
+              "display": "canshare-who-haematology-lymphoplasmacytic-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "307623001",
+                  "display": "Lymphoplasmacytic lymphoma (Waldenstrom macroglobulinaemia)"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-fl-histology",
+              "display": "canshare-who-haematology-fl-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "308121000",
+                  "display": "Follicular lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-mc-lymphoma-histology",
+              "display": "canshare-who-haematology-mc-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "443487006",
+                  "display": "Mantle cell lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-dlbcl-histology",
+              "display": "canshare-who-haematology-dlbcl-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "109969005",
+                  "display": "Diffuse large B-cell lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-primary-cns-lymphoma-histology",
+              "display": "canshare-who-haematology-primary-cns-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "307649006",
+                  "display": "Primary CNS lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-bl-histology",
+              "display": "canshare-who-haematology-bl-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "118617000",
+                  "display": "Burkitt lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-hl-histology",
+              "display": "canshare-who-haematology-hl-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118599009",
+                  "display": "Hodgkin lymphoma"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-hl-histology",
+              "display": "canshare-who-haematology-hl-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "118599009",
+                  "display": "Hodgkin lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-amyloidosis-histology",
+              "display": "canshare-who-haematology-amyloidosis-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "17602002",
+                  "display": "Amyloidosis"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-myeloma-histology",
+              "display": "canshare-who-haematology-myeloma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "109989006",
+                  "display": "Myeloma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-plasma-cell-histology",
+              "display": "canshare-who-haematology-plasma-cell-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "415111003",
+                  "display": "Plasma cell neoplasm"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-peripheral-T-cell-lymphoma-histology",
+              "display": "canshare-who-haematology-peripheral-T-cell-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "109977009",
+                  "display": "Peripheral T-cell lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-cutaneous-T-cell-lymphoma-histology",
+              "display": "canshare-who-haematology-cutaneous-T-cell-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "400122007",
+                  "display": "Cutaneous T-cell lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-extranodal-nk-t-cell-lymphoma-histology",
+              "display": "canshare-who-haematology-extranodal-nk-t-cell-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "414166008",
+                  "display": "Extranodal NK/T-cell lymphoma"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-mastocytosis-histology",
+              "display": "canshare-who-haematology-mastocytosis-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "414653009",
+                  "display": "Mastocytosis"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-lymphoma-histology",
+              "display": "canshare-who-haematology-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118600007",
+                  "display": "Lymphoma"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-lymphoma-histology",
+              "display": "canshare-who-haematology-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118600007",
+                  "display": "Lymphoma"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-b-cell-lymphoma-histology",
+              "display": "canshare-who-haematology-b-cell-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "109979007",
+                  "display": "B-cell lymphoma"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-nk-t-cell-lymphoma-histology",
+              "display": "canshare-who-haematology-nk-t-cell-lymphoma-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "109978004",
+                  "display": "T/NK-cell lymphoma"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-nhl-histology",
+              "display": "canshare-who-haematology-nhl-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "118601006",
+                  "display": "Non-Hodgkin lymphoma"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-leukaemia-histology",
+              "display": "canshare-who-haematology-leukaemia-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93143009",
+                  "display": "Leukaemia"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-leukaemia-histology",
+              "display": "canshare-who-haematology-leukaemia-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93143009",
+                  "display": "Leukaemia"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-chronic-leukaemia-histology",
+              "display": "canshare-who-haematology-chronic-leukaemia-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "92812005",
+                  "display": "Chronic leukaemia"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-haematology-acute-leukaemia-histology",
+              "display": "canshare-who-haematology-acute-leukaemia-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "91855006",
+                  "display": "Acute leukaemia"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-mo-histology",
+              "display": "canshare-who-mo-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-service",
+                  "system": "http://snomed.info/sct",
+                  "value": "394593009",
+                  "display": "Medical oncology"
+                },
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer stream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-breast-histology",
+              "display": "canshare-who-breast-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-breast-histology",
+              "display": "canshare-who-breast-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-breast-histology",
+              "display": "canshare-who-breast-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-breast-nipple-histology",
+              "display": "canshare-who-breast-nipple-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "372137005",
+                  "display": "Breast primary"
+                },
+                {
+                  "property": "primary-site",
+                  "system": "http://snomed.info/sct",
+                  "value": "24142002",
+                  "display": "Nipple"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-thoracic-histology",
+              "display": "canshare-who-thoracic-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298161000210105",
+                  "display": "Thoracic primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-thoracic-histology",
+              "display": "canshare-who-thoracic-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298161000210105",
+                  "display": "Thoracic primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-thoracic-non-small-cell-lung-histology",
+              "display": "canshare-who-thoracic-non-small-cell-lung-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "1268348008",
+                  "display": "Lung small cell carcinoma primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-thoracic-small-cell-lung-histology",
+              "display": "canshare-who-thoracic-small-cell-lung-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "1259727001",
+                  "display": "Lun non-small cell carcinoma primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-thoracic-germ-cell-mediastinum-histology",
+              "display": "canshare-who-thoracic-germ-cell-mediastinum-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "301461000210101",
+                  "display": "Germ cell primary of thorax (currently \"Germ cell tumour of thorax and/or mediastinum primary\") --> Germ cell primary of mediastinum"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-digestive-histology",
+              "display": "canshare-who-digestive-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297901000210108",
+                  "display": "Gastrointestinal primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-female-genital-histology",
+              "display": "canshare-who-female-genital-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297911000210105",
+                  "display": "Gynaecological primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-female-genital-histology",
+              "display": "canshare-who-female-genital-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297911000210105",
+                  "display": "Gynaecological primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-female-genital-histology",
+              "display": "canshare-who-female-genital-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "297911000210105",
+                  "display": "Gynaecological primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-ovary-primary-histology",
+              "display": "canshare-who-ovary-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "93934004",
+                  "display": "Ovary primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-peritoneum-primary-histology",
+              "display": "canshare-who-peritoneum-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "372016004",
+                  "display": "Peritoneum primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-fallopian-tube-primary-histology",
+              "display": "canshare-who-fallopian-tube-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "371987000",
+                  "display": "Fallopian tube primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-uterine-corpus-primary-histology",
+              "display": "canshare-who-uterine-corpus-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "371971003",
+                  "display": "Uterine corpus primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-gestational-trophoblastic-primary-histology",
+              "display": "canshare-who-gestational-trophoblastic-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "416402001",
+                  "display": "Gestational trophoblastic disease"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-uterine-cervix-primary-histology",
+              "display": "canshare-who-uterine-cervix-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "372024009",
+                  "display": "Uterine cervix primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-vagina-primary-histology",
+              "display": "canshare-who-vagina-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "372025005",
+                  "display": "Vagina primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-vulva-primary-histology",
+              "display": "canshare-who-vulva-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "94143002",
+                  "display": "Vulva primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-urinary-male-genital-histology",
+              "display": "canshare-who-urinary-male-genital-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-stream",
+                  "system": "http://snomed.info/sct",
+                  "value": "298271000210105",
+                  "display": "Genitourinary primary"
+                },
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer substream"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-male-genital-primary-histology",
+              "display": "canshare-who-male-genital-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "93885006",
+                  "display": "Male genital primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-prostate-primary-histology",
+              "display": "canshare-who-prostate-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "93974005",
+                  "display": "Prostate primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-penis-primary-histology",
+              "display": "canshare-who-penis-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "372005006",
+                  "display": "Penis primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-testis-primary-histology",
+              "display": "canshare-who-testis-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "94087009",
+                  "display": "Testis primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-testicular-adnexa-primary-histology",
+              "display": "canshare-who-testicular-adnexa-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "301001000210106",
+                  "display": "Testicular adnexa primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-urinary-system-primary-histology",
+              "display": "canshare-who-urinary-system-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-substream",
+                  "system": "http://snomed.info/sct",
+                  "value": "94125001",
+                  "display": "Urinary system primary"
+                },
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "0",
+                  "display": "No cancer type"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-kidney-primary-histology",
+              "display": "canshare-who-kidney-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "93849006",
+                  "display": "Kidney primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-renal-pelvis-ureter-primary-histology",
+              "display": "canshare-who-renal-pelvis-ureter-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "301051000210107",
+                  "display": "Renal pelvis and/or ureter primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-bladder-primary-histology",
+              "display": "canshare-who-bladder-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "93689003",
+                  "display": "Urinary bladder primary"
+                }
+              ]
+            },
+            {
+              "code": "https://nzhts.digital.health.nz/fhir/ValueSet/canshare-who-urethra-primary-histology",
+              "display": "canshare-who-urethra-primary-histology",
+              "equivalence": "relatedto",
+              "dependsOn": [
+                {
+                  "property": "cancer-type",
+                  "system": "http://snomed.info/sct",
+                  "value": "94123008",
+                  "display": "Urethra primary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
