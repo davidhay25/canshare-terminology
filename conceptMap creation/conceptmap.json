@@ -1,12 +1,12 @@
 {
   "resourceType": "ConceptMap",
-  "id": "canshare-scripted-mar2024",
-  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-scripted-mar2024",
+  "id": "canshare-select-valueset-map",
+  "url": "http://canshare.co.nz/fhir/ConceptMap/canshare-select-valueset-map",
   "identifier": {
-    "value": "canshare-scripted-mar2024",
+    "value": "canshare-select-valueset-map",
     "system": "http://canshare.co.nz/fhir/NamingSystem/conceptmaps"
   },
-  "title": "March2024 ConceptMap",
+  "title": "CanShare select ValueSet ConceptMap",
   "status": "draft",
   "group": [
     {

@@ -33,10 +33,10 @@ console.log(arLines.length)
 
 let snomed = "http://snomed.info/sct"
 
-let cm = {resourceType:"ConceptMap",id:"canshare-scripted-mar2024"}
-cm.url = "http://canshare.co.nz/fhir/ConceptMap/canshare-scripted-mar2024"
-cm.identifier = {value:"canshare-scripted-mar2024",system:"http://canshare.co.nz/fhir/NamingSystem/conceptmaps"}
-cm.title = "March2024 ConceptMap"
+let cm = {resourceType:"ConceptMap",id:"canshare-select-valueset-map"}
+cm.url = "http://canshare.co.nz/fhir/ConceptMap/canshare-select-valueset-map"
+cm.identifier = {value:"canshare-select-valueset-map",system:"http://canshare.co.nz/fhir/NamingSystem/conceptmaps"}
+cm.title = "CanShare select ValueSet ConceptMap"
 cm.status = "draft"
 let group = {source:snomed,target:snomed,element:[]}
 cm.group = [group]

@@ -40,10 +40,10 @@ getAccessToken().then(
 
 
         try {
-
+/*
             //Set ConceptMaps. Only a specific CM for now - and a 1-off....
-            /*
-            let cmId = "canshare-scripted-mar2024"
+           
+            let cmId = "canshare-select-valueset-map"
 
             let qryCm = `${serverHost}synd/getSyndicationStatus?id=${cmId}&resourceType=ConceptMap`  
             let cmResponse = await axios.get(qryCm,config)
@@ -60,8 +60,8 @@ getAccessToken().then(
               
             const { data } = await axios.request(options);
             return  //temp
-        */
-
+       
+*/
 
 
            
