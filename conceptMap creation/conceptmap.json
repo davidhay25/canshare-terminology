@@ -153,7 +153,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "298201000210103 ",
+                  "value": "298201000210103",
                   "system": "http://snomed.info/sct",
                   "display": "Upper gastrointestinal primary"
                 },
@@ -215,7 +215,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "298191000210100 ",
+                  "value": "298191000210100",
                   "system": "http://snomed.info/sct",
                   "display": "Lower gastrointestinal primary"
                 },
@@ -421,7 +421,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-type",
-                  "value": "301001000210106 ",
+                  "value": "301001000210106",
                   "system": "http://snomed.info/sct",
                   "display": "Testicular adnexa primary"
                 }
@@ -469,7 +469,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-type",
-                  "value": "301051000210107 ",
+                  "value": "301051000210107",
                   "system": "http://snomed.info/sct",
                   "display": "Renal pelvis and/or ureter primary"
                 }
@@ -1055,7 +1055,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-stream",
-                  "value": "297921000210100 ",
+                  "value": "297921000210100",
                   "system": "http://snomed.info/sct",
                   "display": "Head and neck primary"
                 }
@@ -1409,7 +1409,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "298201000210103 ",
+                  "value": "298201000210103",
                   "system": "http://snomed.info/sct",
                   "display": "Upper gastrointestinal primary"
                 }
@@ -1423,7 +1423,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "298191000210100 ",
+                  "value": "298191000210100",
                   "system": "http://snomed.info/sct",
                   "display": "Lower gastrointestinal primary"
                 }
@@ -1533,7 +1533,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-stream",
-                  "value": "297921000210100 ",
+                  "value": "297921000210100",
                   "system": "http://snomed.info/sct",
                   "display": "Head and neck primary"
                 },
@@ -1553,7 +1553,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "297921000210100 ",
+                  "value": "297921000210100",
                   "system": "http://snomed.info/sct",
                   "display": "Head and neck primary"
                 }
@@ -1615,7 +1615,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "298231000210108 ",
+                  "value": "298231000210108",
                   "system": "http://snomed.info/sct",
                   "display": "Endocrine primary"
                 }
@@ -3045,7 +3045,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-stream",
-                  "value": "297901000210108 ",
+                  "value": "297901000210108",
                   "system": "http://snomed.info/sct",
                   "display": "Gastrointestinal primary"
                 },
@@ -3065,7 +3065,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "298201000210103 ",
+                  "value": "298201000210103",
                   "system": "http://snomed.info/sct",
                   "display": "Upper gastrointestinal primary"
                 },
@@ -3085,7 +3085,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-type",
-                  "value": "371984007 ",
+                  "value": "371984007",
                   "system": "http://snomed.info/sct",
                   "display": "Oesophagus primary"
                 }
@@ -3099,7 +3099,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-type",
-                  "value": "372014001 ",
+                  "value": "372014001",
                   "system": "http://snomed.info/sct",
                   "display": "Stomach primary"
                 }
@@ -3113,7 +3113,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-type",
-                  "value": "94048009 ",
+                  "value": "94048009",
                   "system": "http://snomed.info/sct",
                   "display": "Small intestine primary"
                 }
@@ -3127,7 +3127,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "298191000210100 ",
+                  "value": "298191000210100",
                   "system": "http://snomed.info/sct",
                   "display": "Lower gastrointestinal primary"
                 },
@@ -3189,7 +3189,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "300531000210100 ",
+                  "value": "300531000210100",
                   "system": "http://snomed.info/sct",
                   "display": "Hepatopancreaticobiliary primary"
                 },
@@ -3251,7 +3251,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-stream",
-                  "value": "298271000210105 ",
+                  "value": "298271000210105",
                   "system": "http://snomed.info/sct",
                   "display": "Genitourinary primary"
                 },
@@ -3631,7 +3631,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-stream",
-                  "value": "298161000210105 ",
+                  "value": "298161000210105",
                   "system": "http://snomed.info/sct",
                   "display": "Thoracic primary"
                 },
@@ -3651,7 +3651,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-substream",
-                  "value": "298161000210105 ",
+                  "value": "298161000210105",
                   "system": "http://snomed.info/sct",
                   "display": "Thoracic primary"
                 },
@@ -3741,7 +3741,7 @@
               "dependsOn": [
                 {
                   "property": "cancer-type",
-                  "value": "298161000210105 ",
+                  "value": "298161000210105",
                   "system": "http://snomed.info/sct",
                   "display": "Thoracic primary"
                 }

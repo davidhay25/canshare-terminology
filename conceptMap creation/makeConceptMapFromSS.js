@@ -246,7 +246,10 @@ fs.writeFileSync(`./${cmFileName}`,JSON.stringify(cm,null,2))
 function getDep(property, operation, value, display) {
     let dep = {}
     dep.property = property
-    dep.value = value
+    if (value) {
+        dep.value = value.trim()
+    }
+   
     dep.system = snomed
     if (display) {
         dep.display = display
