@@ -40,9 +40,9 @@ getAccessToken().then(
 
 
         try {
-/*
+
             //Set ConceptMaps. Only a specific CM for now - and a 1-off....
-           
+    
             let cmId = "canshare-select-valueset-map"
 
             let qryCm = `${serverHost}synd/getSyndicationStatus?id=${cmId}&resourceType=ConceptMap`  
@@ -59,12 +59,10 @@ getAccessToken().then(
               };
               
             const { data } = await axios.request(options);
-            return  //temp
-       
-*/
+            
+    
 
-
-           
+           //now the ValueSets
             let qry = `${serverHost}fhir/ValueSet?identifier=http://canshare.co.nz/fhir/NamingSystem/valuesets%7c`
             console.log(qry)
             let response = await axios.get(qry,config)

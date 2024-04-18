@@ -107,7 +107,6 @@ for (const key of Object.keys(hashSource)) {
         let dep0Value = ar[12]       //M the actual code value of the dependency
         let dep0Display = ar[13]   //N the name of the dependency
 
-
         let dep1Property = ar[14]    //O the propertyname for the first dependency
         let dep1Op = ar[15]          //P the operator - '=' must match, '^' means test concept in set
         let dep1Value = ar[16]       //Q the actual code value of the dependency
@@ -117,6 +116,22 @@ for (const key of Object.keys(hashSource)) {
         let dep2Op = ar[19]          //T the operator - '=' must match, '^' means test concept in set
         let dep2Value = ar[20]       //U the actual code value of the dependency
         let dep2Display = ar[21]   //V the name of the dependency
+
+
+        let dep3Property = ar[22]    
+        let dep3Op = ar[23]          
+        let dep3Value = ar[24]      
+        let dep3Display = ar[25]   
+
+        let dep4Property = ar[26]    
+        let dep4Op = ar[27]          
+        let dep4Value = ar[28]      
+        let dep4Display = ar[29]   
+
+        let dep5Property = ar[30]    
+        let dep5Op = ar[31]          
+        let dep5Value = ar[32]      
+        let dep5Display = ar[33]   
 
 
 
@@ -160,8 +175,8 @@ for (const key of Object.keys(hashSource)) {
             let dep = {property:'cancer-service',system:noValueSystem,value:noValueValue,display:"No service specified"}
             target.dependsOn.push(dep)
  */
-            let dep1 = {property:'cancer-stream',system:noValueSystem,value:noValueValue,display:"No stream specified"}
-            target.dependsOn.push(dep1)
+           // let dep1 = {property:'cancer-stream',system:noValueSystem,value:noValueValue,display:"No stream specified"}
+            //target.dependsOn.push(dep1)
             
         }
     
@@ -176,6 +191,18 @@ for (const key of Object.keys(hashSource)) {
 
         if (dep2Property) {
             target.dependsOn.push(getDep(dep2Property,dep2Op,dep2Value,dep2Display))
+        }
+
+        if (dep3Property) {
+            target.dependsOn.push(getDep(dep3Property,dep3Op,dep3Value,dep3Display))
+        }
+
+        if (dep4Property) {
+            target.dependsOn.push(getDep(dep4Property,dep4Op,dep4Value,dep4Display))
+        }
+
+        if (dep5Property) {
+            target.dependsOn.push(getDep(dep5Property,dep5Op,dep5Value,dep5Display))
         }
 
 /*
