@@ -1,15 +1,16 @@
 #!/usr/bin/env node
 
-//Upload the ConceptMap created by makeConceptMapFromSS.js
+//Upload ta single artifact
 
+const fileToUpload = "./StructureDefinition-canshare-depends-on.json"
 
 let serverHost = "https://authoring.nzhts.digital.health.nz/"
-//let serverHost = "https://authoring.nzhts.digital.health.nz/fhir/"
+
 
 const fs = require('fs');
 const axios = require('axios')
 
-const cmFileName = "./conceptmap.json"
+
 
 const clientSecret = "965jNRvSMhX0skvZtYWLcGweiktZ6xpy"
 const clientId = "canshare"
@@ -34,20 +35,19 @@ getAccessToken().then(
         let config = {headers:{authorization:'Bearer ' + at}}
         config['Content-Type'] = "application/fhir+json"
 
-        let cmString = fs.readFileSync(cmFileName).toString()
-        let cm = JSON.parse(cmString)
+        let jsonString = fs.readFileSync(fileToUpload).toString()
+        let json = JSON.parse(jsonString)
 
-        let qry = `${serverHost}fhir/ConceptMap/${cm.id}`
 
-        //console.log(cm)
-        //console.log(qry)
-                
+        let qry = `${serverHost}fhir/${json.resourceType}/${json.id}`
+
         try {
             console.log(qry)
 
-            //upload the ConceptMap
-            console.log('Uploading ConceptMap...')
-            let response = await axios.put(qry,cm,config)
+            //upload the Artifact
+            console.log(`Uploading ${fileToUpload} ...`)
+
+            let response = await axios.put(qry,json,config)
             console.log('...and done')
             console.log('')
 
@@ -56,7 +56,7 @@ getAccessToken().then(
             const options = {
                 method: 'POST',
                 url: `${serverHost}synd/setSyndicationStatus`,
-                params: {resourceType: 'ConceptMap', id: cm.id, syndicate: 'true'},
+                params: {resourceType: json.resourceType, id: json.id, syndicate: 'true'},
                 headers: {'Content-Type': 'application/json', authorization:'Bearer ' + at},
     
               };

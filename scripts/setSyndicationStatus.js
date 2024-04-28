@@ -41,14 +41,40 @@ getAccessToken().then(
 
         try {
 
+
+            //set the codesystem
+            let csId = "canshare-unpublished-concepts"
+            console.log(`Syndicating CodeSystem ${csId}...`)
+
+        
+
+            const csOptions = {
+                method: 'POST',
+                url: `${serverHost}synd/setSyndicationStatus`,
+                params: {resourceType: 'CodeSystem', id: csId, syndicate: 'true'},
+                headers: {'Content-Type': 'application/json', authorization:'Bearer ' + at},
+    
+              };
+              
+            const { csData } = await axios.request(csOptions);
+
+            console.log('...and done')
+
+
+
+    
+
             //Set ConceptMaps. Only a specific CM for now - and a 1-off....
+           
     
             let cmId = "canshare-select-valueset-map"
+
+            console.log(`Syndicating ConceptMap ${cmId}...`)
 
             let qryCm = `${serverHost}synd/getSyndicationStatus?id=${cmId}&resourceType=ConceptMap`  
             let cmResponse = await axios.get(qryCm,config)
 
-            console.log(cmResponse.data)
+            //console.log(cmResponse.data)
 
             const options = {
                 method: 'POST',
@@ -59,7 +85,9 @@ getAccessToken().then(
               };
               
             const { data } = await axios.request(options);
-            
+            console.log('...and done')
+
+            console.log('and now the ValueSets')
     
 
            //now the ValueSets
