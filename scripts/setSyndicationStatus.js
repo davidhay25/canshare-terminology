@@ -91,7 +91,7 @@ getAccessToken().then(
     
 
            //now the ValueSets
-            let qry = `${serverHost}fhir/ValueSet?identifier=http://canshare.co.nz/fhir/NamingSystem/valuesets%7c`
+            let qry = `${serverHost}fhir/ValueSet?identifier=http://canshare.co.nz/fhir/NamingSystem/valuesets%7c&_count=5000`
             console.log(qry)
             let response = await axios.get(qry,config)
             let bundle = response.data
