@@ -1,0 +1,169 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "canshare-unpublished-concepts",
+  "meta": {
+    "versionId": "361",
+    "lastUpdated": "2024-04-30T10:53:37.166+12:00"
+  },
+  "url": "http://canshare.co.nz/fhir/CodeSystem/snomed-unpublished",
+  "identifier": [
+    {
+      "system": "http://canshare.co.nz/fhir/NamingSystem/codesystems",
+      "value": "canshare-unpublished-concepts"
+    }
+  ],
+  "name": "Canshare_unpublished_concepts",
+  "title": "Concepts that are not yet formally published",
+  "status": "active",
+  "publisher": "Te Aho o Te Kahu",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@teaho.govt.nz"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "cc",
+      "display": "cc"
+    },
+    {
+      "code": "dd",
+      "display": "dddd"
+    },
+    {
+      "code": "aa",
+      "display": "aa"
+    },
+    {
+      "code": "bb",
+      "display": "bb"
+    },
+    {
+      "code": "ff",
+      "display": "ff"
+    },
+    {
+      "code": "382691000210103",
+      "display": "CNS nerve primary"
+    },
+    {
+      "code": "382541000210108",
+      "display": "Endocrine and/or neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "390881000210102",
+      "display": "Eye and/or orbit primary"
+    },
+    {
+      "code": "382551000210106",
+      "display": "Neuroendocrine tumour gastroenteropancreatic (GEP-NET) primary"
+    },
+    {
+      "code": "382561000210109",
+      "display": "Neuroendocrine tumour non-gastroenteropancreatic (non-GEP NET) primary"
+    },
+    {
+      "code": "390901000210104",
+      "display": "Eyelid primary"
+    },
+    {
+      "code": "390801000210106",
+      "display": "Colorectal neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "390811000210108",
+      "display": "Hepatic neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "390821000210103",
+      "display": "Urinary system neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "390831000210101",
+      "display": "Male genital neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "390841000210109",
+      "display": "Gynaecological neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "390851000210107",
+      "display": "Breast neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "390861000210105",
+      "display": "Head and neck neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "390871000210104",
+      "display": "CNS neuroendocrine tumour (NET) primary"
+    },
+    {
+      "code": "392081000210108",
+      "display": "B-cell lymphoid proliferation"
+    },
+    {
+      "code": "392101000210103",
+      "display": "T/ NK-cell lymphoid proliferation"
+    },
+    {
+      "code": "392031000210109",
+      "display": "Aggressive B cell lymphoma"
+    },
+    {
+      "code": "392141000210100",
+      "display": "Mature T/NK-cell lymphoid proliferation"
+    },
+    {
+      "code": "392121000210106",
+      "display": "T-cell lymphoid proliferation"
+    },
+    {
+      "code": "390991000210105",
+      "display": "Pituitary neuroendocrine tumour (PitNET) primary"
+    },
+    {
+      "code": "392071000210106",
+      "display": "Plasmacytoid dendritic cell neoplasm"
+    },
+    {
+      "code": "392161000210104",
+      "display": "Mature T/NK-cell leukaemia"
+    },
+    {
+      "code": "392201000210106",
+      "display": "Primary cutaneous T cell lymphoproliferative disorder"
+    },
+    {
+      "code": "392211000210108",
+      "display": "Intestinal T/NK-cell lymphoid proliferation"
+    },
+    {
+      "code": "392221000210103",
+      "display": "EBV-positive T/NK-cell lymphoid proliferation"
+    },
+    {
+      "code": "92081000210108",
+      "display": "Other B-cell lymphoid proliferation"
+    },
+    {
+      "code": "394231000210105",
+      "display": "Nipple-areolar complex"
+    },
+    {
+      "code": "382491000210100",
+      "display": "NGS - Next-generaton sequencing"
+    },
+    {
+      "code": "gg",
+      "display": "gg"
+    }
+  ]
+}

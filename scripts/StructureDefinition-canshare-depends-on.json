@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "canshare-depends-on",
   "url": "http://canshare.co.nz/fhir/StructureDefinition/do-operator",
+  "version": "1",
   "name": "DependsOn",
   "status": "draft",
   "description": "Indicates the type of comparison performed when ecaluating the target 'depends-on' value if it is not simple equality",

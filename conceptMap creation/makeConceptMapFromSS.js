@@ -38,6 +38,7 @@ cm.url = "http://canshare.co.nz/fhir/ConceptMap/canshare-select-valueset-map"
 cm.identifier = {value:"canshare-select-valueset-map",system:"http://canshare.co.nz/fhir/NamingSystem/conceptmaps"}
 cm.title = "CanShare select ValueSet ConceptMap"
 cm.status = "draft"
+cm.version = "1"
 let group = {source:snomed,target:snomed,element:[]}
 cm.group = [group]
 
